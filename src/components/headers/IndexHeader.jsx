@@ -21,9 +21,9 @@ const IndexHeader = () => {
                         <p className="md:text-sm text-xs dark:text-gray-700 duration-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi deserunt veniam quisquam obcaecati quia cupiditate iusto? Quasi, quos nemo nam accusantium quisquam ipsum, voluptas tempore quam hic accusamus eaque.</p>
                     </div>
                     <div className="flex flex-row md:mt-3 my-3 items-center justify-between px-3 md:w-2/3">
-                        <HeaderButton name="Project" href="#project" />
-                        <HeaderButton name="Achievement" href="#achievement" />
-                        <HeaderButton name="Contact" href="#contact" />
+                        <HeaderButton name="Team" href="#team" />
+                        <HeaderButton name="Structure" href="#structure" />
+                        <HeaderButton name="Member" href="#member" />
                     </div>
                 </div>
                 <div className="flex-col mx-auto mt-5 md:mt-0">

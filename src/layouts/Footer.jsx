@@ -27,7 +27,7 @@ const Footer = () => {
                     <a href="https://www.instagram.com/icrtikmi/" className="hover:scale-105 transform transition-all duration-300">
                         {instagram}
                     </a>
-                    <a href="#" className="hover:scale-105 transform transition-all duration-300">
+                    <a href="mailto:robotikaikmi90@gmail.com" className="hover:scale-105 transform transition-all duration-300">
                         {gmail}
                     </a>
                     <a href="https://www.youtube.com/channel/UCAAVVbKYuAPeqA-J84J6nnA" className="hover:scale-105 transform transition-all duration-300">
