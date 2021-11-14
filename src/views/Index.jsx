@@ -1,7 +1,7 @@
 import React from "react";
 import IndexHeader from "../components/headers/IndexHeader";
 import IndexNavbar from "../components/navbars/IndexNavbar";
-import Members from "../layouts/Members";
+import Footer from "../layouts/Footer";
 import Teams from "../layouts/Teams";
 
 function Index() {
@@ -18,6 +18,9 @@ function Index() {
             {/* <div>
               <Members />
             </div> */}
+            <div>
+              <Footer />
+            </div>
         </div>
     </div>
   );
