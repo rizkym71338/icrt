@@ -1,5 +1,4 @@
-import { Transition } from "@headlessui/react";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import DarkMode from "../darkmode/DarkMode";
 import Logo from "../../assets/img/logo2.png";
 
@@ -7,15 +6,15 @@ const IndexNavbar = () => {
 
     const [colorTheme, setTheme] = DarkMode();
 
-    const [isOpen, setIsOpen] = React.useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="transition ease-out duration-500 antialiased shadow-xl fixed bg-white dark:bg-gray-800 flex flex-col md:flex-row w-full">
+        <div className="z-50 duration-500 antialiased shadow-xl fixed bg-white dark:bg-gray-800 flex flex-col md:flex-row w-full">
             <div className="flex flex-col md:flex-row md:mx-16 mx-2 justify-between md:w-full">
                 <div className="flex justify-between items-center px-4 py-2 md:py-0">
                     <div>
-                        <a href="#" className="uppercase font-bold text-blue-500">
-                            <img src={Logo} alt="" className="w-20" />
+                        <a href="/">
+                            <img src={Logo} alt="icrt" className="w-20" />
                         </a>
                     </div>
                     <di>
@@ -25,28 +24,19 @@ const IndexNavbar = () => {
                                 <path className={isOpen ? 'block dark:text-white' : 'hidden'} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
-                        <Transition
-                            show={isOpen}
-                            enter="transition-opacity duration-75"
-                            enterFrom="opacity-0"
-                            enterTo="opacity-100"
-                            leave="transition-opacity duration-150"
-                            leaveFrom="opacity-100"
-                            leaveTo="opacity-0">
-                        </Transition>
                     </di>
                 </div>
             
 
                 <div className={`${isOpen ? 'block' : 'hidden'} md:flex flex-col md:flex-row md:justify-end md:w-full mx-5 mt-3 md:mt-0`}>
                     <div className="flex flex-col md:flex-row md:mr-5">
-                        <a href="#" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent transition ease-in-out duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Home</a>
-                        <a href="#" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent transition ease-in-out duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Project</a>
-                        <a href="#" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent transition ease-in-out duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Achievement</a>
-                        <a href="#" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent transition ease-in-out duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Contact</a>
+                        <a href="/" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Home</a>
+                        <a href="#project" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Project</a>
+                        <a href="#achievement" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Achievement</a>
+                        <a href="#contact" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Contact</a>
                     </div>
                     <div className="flex md:flex-row justify-center">
-                        <div onClick={() => setTheme(colorTheme)} className="block py-0 pb-5 md:pb-3 md:py-4 px-2 transition ease-in-out duration-500 text-gray-700">
+                        <div onClick={() => setTheme(colorTheme)} className="block py-0 pb-5 md:pb-3 md:py-4 px-2 duration-500 text-gray-700">
                             {colorTheme === "light" ?
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 dark:hover:text-blue-500 dark:text-white transition duration-300" viewBox="0 0 20 20" fill="currentColor">
                                 <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />

@@ -20,13 +20,13 @@ const IndexHeader = () => {
                         <span className="font-bold text-black text-xl">Misi</span>
                         <p className="md:text-sm text-xs dark:text-gray-700 duration-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi deserunt veniam quisquam obcaecati quia cupiditate iusto? Quasi, quos nemo nam accusantium quisquam ipsum, voluptas tempore quam hic accusamus eaque.</p>
                     </div>
-                    <div className="flex flex-row md:mt-3 my-3 items-center">
-                        <HeaderButton name="Project" />
-                        <HeaderButton name="Achievement" />
-                        <HeaderButton name="Contact" />
+                    <div className="flex flex-row md:mt-3 my-3 items-center justify-between px-3 md:w-2/3">
+                        <HeaderButton name="Project" href="#project" />
+                        <HeaderButton name="Achievement" href="#achievement" />
+                        <HeaderButton name="Contact" href="#contact" />
                     </div>
                 </div>
-                <div className="flex-col mx-auto">
+                <div className="flex-col mx-auto mt-5 md:mt-0">
                     <img src={Img} alt="" width="480px" />
                 </div>
             </div>
