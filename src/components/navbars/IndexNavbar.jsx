@@ -9,9 +9,9 @@ const IndexNavbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="z-50 duration-500 antialiased shadow-xl fixed bg-white dark:bg-gray-800 flex flex-col md:flex-row w-full">
-            <div className="flex flex-col md:flex-row md:mx-16 mx-2 justify-between md:w-full">
-                <div className="flex justify-between items-center px-4 py-2 md:py-0">
+        <div className="z-50 duration-500 antialiased md:shadow-xl md:bg-white fixed md:dark:bg-gray-800 flex flex-col md:flex-row w-full">
+            <div className="flex flex-col md:flex-row md:mx-16 justify-between md:w-full">
+                <div className="flex justify-between items-center md:dark:bg-transparent md:bg-transparent dark:bg-gray-800 shadow-xl md:shadow-none bg-white px-4 py-2 md:py-0">
                     <div>
                         <a href="/">
                             <img src={Logo} alt="icrt" className="w-20" />
@@ -20,16 +20,16 @@ const IndexNavbar = () => {
                     <di>
                         <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none md:hidden block">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path className={!isOpen ? 'block dark:text-white' : 'hidden'} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h8m-8 6h16" />
-                                <path className={isOpen ? 'block dark:text-white' : 'hidden'} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                <path className={!isOpen ? 'block dark:text-white transition-all duration-300' : ' opacity-0 scale-0 transition-all ease-out duration-300'} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h8m-8 6h16" />
+                                <path className={isOpen ? 'block dark:text-white transition-all duration-300' : ' opacity-0 scale-0 transition-all ease-out duration-300'} strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
                     </di>
                 </div>
             
 
-                <div className={`${isOpen ? 'block' : 'hidden'} md:flex flex-col md:flex-row md:justify-end md:w-full mx-5 mt-3 md:mt-0`}>
-                    <div className="flex flex-col md:flex-row md:mr-5">
+                <div className={`${isOpen ? 'block md:dark:bg-transparent md:bg-transparent dark:bg-gray-800 bg-white rounded-xl' : 'absolut md:block md:-translate-y-0 -translate-y-full scale-0 md:scale-100'} md:flex flex-col md:flex-row md:justify-end md:w-full mx-5 mt-3 md:mt-0 transform transition-all ease-out duration-300`}>
+                    <div className="flex flex-col md:flex-row md:mr-5 pt-5 md:pt-0">
                         <a href="/" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Home</a>
                         <a onClick={() => setIsOpen(!isOpen)} href="#team" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Team</a>
                         <a onClick={() => setIsOpen(!isOpen)} href="#structure" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Structure</a>
