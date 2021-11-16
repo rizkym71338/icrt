@@ -14,11 +14,15 @@ const IndexHeader = () => {
                     </div>
                     <div className="my-3 md:w-2/3 w-full">
                         <span className="font-bold text-black text-xl">Visi</span>
-                        <p className="md:text-sm text-xs dark:text-gray-700 duration-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi deserunt veniam quisquam obcaecati quia cupiditate iusto? Quasi, quos nemo nam accusantium quisquam ipsum, voluptas tempore quam hic accusamus eaque.</p>
+                        <p className="md:text-lg text-sm dark:text-gray-700 duration-500">Menjadikan Unit Kegiatan Mahasiswa Robotika Paling Unggul dan Berprestasi di bidang Robotika.</p>
                     </div>
-                    <div className="my-3 md:w-2/3 w-full">
+                    <div className="my-3 w-full">
                         <span className="font-bold text-black text-xl">Misi</span>
-                        <p className="md:text-sm text-xs dark:text-gray-700 duration-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi deserunt veniam quisquam obcaecati quia cupiditate iusto? Quasi, quos nemo nam accusantium quisquam ipsum, voluptas tempore quam hic accusamus eaque.</p>
+                        <div className="md:text-lg text-sm dark:text-gray-700 duration-500">
+                            <p>&bull; Mengadakan berbagai pelatihan di bidang robotika.</p>
+                            <p>&bull; Mengikuti kompetisi kejuaraan robotika se-indonesia dan internasional.</p>
+                            <p>&bull; Menyelenggarakan seminar atau workshop robotika.</p>
+                        </div>
                     </div>
                     <div className="flex flex-row md:mt-3 my-3 items-center justify-between px-3 md:w-2/3">
                         <HeaderButton name="Team" href="#team" />
