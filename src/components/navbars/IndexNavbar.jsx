@@ -10,7 +10,7 @@ const IndexNavbar = () => {
 
     return (
         <div className="z-50 duration-500 antialiased md:shadow-xl md:bg-white fixed md:dark:bg-gray-800 flex flex-col md:flex-row w-full">
-            <div className="flex flex-col md:flex-row md:mx-16 justify-between md:w-full">
+            <div className="flex flex-col md:flex-row md:mx-auto justify-between md:w-full md:container">
                 <div className="flex justify-between items-center md:dark:bg-transparent md:bg-transparent dark:bg-gray-800 shadow-xl md:shadow-none bg-white px-4 py-2 md:py-0">
                     <div>
                         <a href="/">
