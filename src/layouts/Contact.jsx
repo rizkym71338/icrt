@@ -13,7 +13,7 @@ const Projects = () => {
                             <input type="text" className="form-input my-5 duration-300 transition-all ease-in-out w-full rounded-lg shadow-xl outline-none" placeholder="Nama" />
                             <input type="email" className="form-input my-5 duration-300 transition-all ease-in-out w-full rounded-lg shadow-xl outline-none" placeholder="Email" />
                             <textarea type="text" rows="5" className="form-textarea my-5 duration-300 transition-all ease-in-out w-full rounded-lg shadow-xl outline-none" placeholder="Pesan" />
-                            <button type="submit" className="bg-blue-500 rounded-xl my-5 text-white px-10 py-3 transition-all transform hover:scale-110 duration-300 shadow-xl font-bold justify-end">Kirim</button>
+                            <button type="submit" className="bg-blue-500 rounded-xl my-5 text-white dark:text-gray-700 px-10 py-3 transition-all transform hover:scale-110 duration-300 shadow-xl font-bold justify-end">Kirim</button>
                         </form>
                     </div>
                 </div>

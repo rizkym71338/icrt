@@ -3,7 +3,7 @@ import AchievementsCard from "../components/cards/AchievementsCard";
 
 const Achievements = () => {
     return (
-        <div id="achievement" className="dark:bg-gray-800 duration-500 md:container mx-auto md:px-10">
+        <div id="achievement" className="duration-500 md:container mx-auto md:px-10">
             <div align="center" className="md:mx-auto pt-24 dark:text-white text-5xl font-bold items-center justify-between">
                 <h1>Our Achievements</h1>
             </div>
