@@ -4,9 +4,9 @@ import HeaderButton from "../buttons/HeaderButton";
 
 const IndexHeader = () => {
     return (
-        <div className='md:bg-gradient-to-l bg-gradient-to-b from-blue-400 md:to-blue-200 to-blue-300 dark:bg-gradient-to-l dark:from-blue-500 dark:to-blue-300  transition-color duration-500'>
+        <div className='md:bg-gradient-to-l bg-gradient-to-b from-blue-400 md:to-blue-200 to-blue-300 dark:bg-gradient-to-l dark:from-blue-500 dark:to-blue-300 transition-color duration-500'>
 
-            <div className="flex md:flex-row flex-col md:mx-auto mx-5 md:py-20 pt-20 pb-10 items-center transition duration-500 md:container">
+            <div className="flex md:flex-row md:px-10 flex-col md:mx-auto mx-5 md:py-20 pt-20 pb-10 items-center transition duration-500 md:container">
                 <div className="flex flex-col md:w-2/3 w-full">
                     <div className="flex flex-col md:flex-row md:text-5xl text-3xl mb-3 md:text-left md:justify-start justify-center text-center mx-auto md:mx-0">
                         <h1 className="font-bold text-black">Ikmi Cirebon </h1>
