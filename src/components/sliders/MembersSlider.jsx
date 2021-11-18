@@ -1,56 +1,50 @@
-import React, {useState} from "react";
-import Slider from "react-slick";
-import MembersCard from "../cards/MembersCard";
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import React from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import MembersCard from '../cards/MembersCard';
 
 const MembersSlider = () => {
-    const NextArrow = ({ onClick }) => {
-        return (
-        <div className="absolute items-center dark:text-white z-10 right-0 top-1/2 dark:hover:text-blue-500 hover:text-blue-500 duration-300" onClick={onClick}>
-            <FaArrowRight />
-        </div>
-        );
-    };
 
-    const PrevArrow = ({ onClick }) => {
-        return (
-        <div className="absolute items-center dark:text-white z-10 left-0 top-1/2  dark:hover:text-blue-500 hover:text-blue-500 duration-300" onClick={onClick}>
-            <FaArrowLeft />
-        </div>
-        );
-    };
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      slidesToSlide: 1 // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 1 // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1 // optional, default to 1.
+    }
+  };
 
-    const [cardIndex, setCardIndex] = useState(0);
+  const CustomRightArrow = ({ onClick, ...rest }) => {
+    const {
+      onMove,
+      carouselState: { currentSlide, deviceType }
+    } = rest;
+    // onMove means if dragging or swiping in progress.
+    return <button className="bg-blue-500" onClick={() => onClick()} />;
+  };
 
-    const settings = {
-        centerMode: true,
-        infinite: true,
-        lazyload: true,
-        centerPadding: 0,
-        speed: 500,
-        slidesToShow: 3,
-        nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />,
-        beforeChange: (current, next) => setCardIndex(next),
-    };
-    return (
-      <div>
-        <Slider {...settings}>
-          <div align="center">
-            <MembersCard name="Michella" jabatan="Ketua ICRT" />
-          </div>
-          <div align="center">
-            <MembersCard name="Christinna" jabatan="Wakil Ketua ICRT" />
-          </div>
-          <div align="center">
-            <MembersCard name="Alliyah" jabatan="Sekretaris" />
-          </div>
-          <div align="center">
-            <MembersCard name="Alliyah" jabatan="Sekretaris" />
-          </div>
-        </Slider>
-      </div>
-    );
+  return (
+    <div className="w-full">
+      <Carousel responsive={responsive} infinite={true} containerClass="carousel-container" ssr={true}>
+        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
+        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
+        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
+        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
+        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
+        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
+        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
+      </Carousel>;
+    </div>
+  )
 }
 
 export default MembersSlider;

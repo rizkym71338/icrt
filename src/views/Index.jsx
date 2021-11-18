@@ -23,9 +23,9 @@ function Index() {
             <div>
               <Structures />
             </div>
-            {/* <div>
+            <div>
               <Members />
-            </div> */}
+            </div>
             <div>
               <Projects />
             </div>

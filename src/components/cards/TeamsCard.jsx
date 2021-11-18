@@ -4,7 +4,7 @@ const TeamsCard = (props) => {
     return (
         <div className={props.className}>
 
-            <div className="items-center justify-between mx-5 rounded-xl pb-3">
+            <div className="items-center justify-between mx-10 rounded-xl pb-3">
                 <img
                     src={props.img}
                     className="rounded-xl mb-4 hover:scale-110 transform duration-300"
