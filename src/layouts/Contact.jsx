@@ -8,10 +8,7 @@ const Projects = () => {
                     <h1>Get In Touch</h1>
                 </div>
                 <div className="md:mx-auto pt-20 flex md:flex-row flex-col items-center justify-between">
-                    <div className="items-center text-center justify-center">
-                        
-                    </div>
-                    <div className="md:w-1/2 w-full" align="center">
+                    <div className="md:w-3/5 mx-auto w-full" align="center">
                         <form action="">
                             <input type="text" className="form-input my-5 duration-300 transition-all ease-in-out w-full rounded-lg shadow-xl outline-none" placeholder="Nama" />
                             <input type="email" className="form-input my-5 duration-300 transition-all ease-in-out w-full rounded-lg shadow-xl outline-none" placeholder="Email" />

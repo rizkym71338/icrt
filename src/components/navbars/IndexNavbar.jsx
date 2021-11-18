@@ -36,7 +36,7 @@ const IndexNavbar = () => {
                         <a onClick={() => setIsOpen(!isOpen)} href="#Member" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Member</a>
                         <a onClick={() => setIsOpen(!isOpen)} href="#project" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Project</a>
                         <a onClick={() => setIsOpen(!isOpen)} href="#achievement" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Achievement</a>
-                        <a onClick={() => setIsOpen(!isOpen)} href="#contact" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">contact</a>
+                        <a onClick={() => setIsOpen(!isOpen)} href="#contact" className="block py-0 pb-3 md:py-4 px-5 md:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Contact</a>
                     </div>
                     <div onClick={() => setIsOpen(!isOpen)} className="flex md:flex-row justify-center">
                         <div onClick={() => setTheme(colorTheme)} className="block py-0 pb-5 md:pb-3 md:py-4 px-2 duration-500 text-gray-700">
