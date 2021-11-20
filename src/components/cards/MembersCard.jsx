@@ -5,7 +5,7 @@ const MembersCard = (props) => {
     return (
         <div>
 
-            <div className="items-center bg-blue-200 shadow-xl p-6 my-14 justify-between w-64 mx-auto rounded-xl pb-3 bg-gradient-to-b from-blue-400 to-white transition-all transform hover:scale-110 duration-500">
+            <div className="items-center shadow-xl p-6 my-14 justify-between w-64 mx-auto rounded-xl pb-3 bg-gradient-to-b from-blue-400 to-white dark:to-gray-200 transition-all transform hover:scale-110 duration-500">
                 <img
                     src={Orang1}
                     className="rounded-full mb-14" alt="Orang 1" align="center" width="250px"
