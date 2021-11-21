@@ -11,9 +11,11 @@ import Contact from "../layouts/Contact";
 
 function Index() {
   return (
-    <div>
+    <div className="">
         <div className="dark:bg-gray-800 duration-500">
-            <IndexNavbar />
+            <div>
+              <IndexNavbar />
+            </div>
             <div>
               <IndexHeader />
             </div>
