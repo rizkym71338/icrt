@@ -52,13 +52,76 @@ const MembersSlider = () => {
   return (
     <div className="w-full">
       <Carousel responsive={responsive} infinite={true} containerClass="carousel-container" ssr={true} customRightArrow={<CustomRightArrow />} customLeftArrow={<CustomLeftArrow />}>
-        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
-        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
-        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
-        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
-        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
-        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
-        <MembersCard name="Michella" divisi="Front End Develop" status="Active" jurusan="Teknik Informatika 2020" />
+        <MembersCard 
+        name="Muh. Fauzan F"
+        facebook="https://www.facebook.com/muhammadfauzanassyifa.alkhairiyah"
+        github="https://github.com/Seczan21"
+        gmail="mailto:ozan.it212@gmail.com"
+        instagram="https://www.instagram.com/ozan_it/"
+        divisi="Mekanik"
+        status="Active"
+        jurusan="Teknik Informatika 2020"
+        />
+        <MembersCard 
+        name="Rizky Maulana"
+        facebook="https://www.facebook.com/Rzkymk"
+        github="https://github.com/rizkym71338"
+        gmail="mailto:rizkym71338@gmail.com"
+        instagram="https://www.instagram.com/rzky_mk"
+        divisi="Software"
+        status="Active"
+        jurusan="Teknik Informatika 2020"
+        />
+        <MembersCard 
+        name="Marwah"
+        facebook="https://www.facebook.com/siti.marwah.37669"
+        github="https://github.com/Marwahs16"
+        gmail="mailto:marwahs350@gmail.com"
+        instagram="https://instagram.com/marwahs_16?utm_medium=copy_link"
+        divisi="Sekretaris"
+        status="Active"
+        jurusan="Teknik Informatika 2020"
+        />
+        <MembersCard 
+        name="Nursyifa A"
+        facebook="https://www.facebook.com/nursyifa.p.s"
+        github="https://github.com/nursyifa05"
+        gmail="mailto:nursyifapuspaarrahmi@gmail.com"
+        instagram="https://www.instagram.com/syifaarrs/"
+        divisi="Sekretaris"
+        status="Active"
+        jurusan="Teknik Informatika 2020"
+        />
+        <MembersCard 
+        name="Fahmi Afandi"
+        facebook="https://www.facebook.com/Fahmi.Parkour.Weibe"
+        github="https://github.com/fahmiaff"
+        gmail="mailto:brengestextreme.pkfr@gmail.com"
+        instagram="https://instagram.com/wib_123?r=nametag"
+        divisi="Mekanik"
+        status="Active"
+        jurusan="Teknik Informatika 2020"
+        />
+        <MembersCard 
+        name="Risma Ardhani"
+        facebook="https://www.facebook.com/Fahmi.Parkour.Weibe"
+        github="https://github.com/fahmiaff"
+        gmail="mailto:brengestextreme.pkfr@gmail.com"
+        instagram="https://instagram.com/wib_123?r=nametag"
+        divisi="Mekanik"
+        status="Active"
+        jurusan="Teknik Informatika 2020"
+        />
+        <MembersCard 
+        name="Meita Sutra S"
+        facebook="https://www.facebook.com/meita.s.safira"
+        github="https://github.com/meitasutra"
+        gmail="mailto:meitasutra.12safira@gmail.com"
+        instagram="https://www.instagram.com/meitasutra"
+        divisi="Mekanik"
+        status="Active"
+        jurusan="Teknik Informatika 2020"
+        />
       </Carousel>;
     </div>
   )
