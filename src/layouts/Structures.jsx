@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import ProjectsButton from "../components/buttons/ProjectsButton";
 import StructuresCard from "../components/cards/StructuresCard";
 
+import Fauzan from "../assets/structure/fauzan.png";
+import Wisnu from "../assets/structure/wisnu.png";
+
 const Structures = () => {
 
     const [showMore, setShowMore] = useState(false);
@@ -10,12 +13,22 @@ const Structures = () => {
         <div>
             <div id="structure" className="bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500">
                 <div className="xl:container mx-auto lg:px-10">
-                    <div align="center" className="mx-auto pt-24 text-5xl font-bold items-center justify-between">
+                    <div align="center" className="mx-auto pt-24 lg:text-5xl text-4xl font-bold items-center justify-between">
                         <h1>Our Structure</h1>
                     </div>
                     <div className="lg:mx-auto py-20 flex lg:flex-row flex-col justify-center items-center">
-                        <StructuresCard jabatan="Ketua" nama="Mochammad Fauzan F" jurusan="Teknik Informatika 2020" />
-                        <StructuresCard jabatan="Wakil Ketua" nama="Wisnu Wijaya" jurusan="Teknik Informatika 2020" />
+                        <StructuresCard
+                        jabatan="Ketua"
+                        nama="Mochammad Fauzan F"
+                        jurusan="Teknik Informatika 2020"
+                        src={Fauzan}
+                        />
+                        <StructuresCard
+                        jabatan="Wakil Ketua"
+                        nama="Wisnu Wijaya"
+                        jurusan="Teknik Informatika 2020"
+                        src={Wisnu}
+                        />
                     </div>                    
                 </div>
 

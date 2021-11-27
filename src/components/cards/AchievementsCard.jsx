@@ -5,10 +5,10 @@ const AchievementsCard = (props) => {
         <div className={props.className}>
 
             <div className="items-center justify-between w-full mx-auto rounded-xl pb-3">
-                <div className="mb-4 h-48 sm:w-96 mx-auto">
+                <div className="mb-4 h-48 lg:w-96 w-80 mx-auto transform duration-300 hover:scale-105">
                     <img
                         src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
-                        className="rounded-xl block w-full h-full hover:scale-110 transform duration-300"
+                        className="rounded-xl w-full h-full"
                         align="center"
                     />
                 </div>

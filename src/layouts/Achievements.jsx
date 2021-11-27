@@ -4,7 +4,7 @@ import AchievementsCard from "../components/cards/AchievementsCard";
 const Achievements = () => {
     return (
         <div id="achievement" className="duration-500 xl:container mx-auto lg:px-10">
-            <div align="center" className="lg:mx-auto pt-24 dark:text-white text-5xl font-bold items-center justify-between">
+            <div align="center" className="lg:mx-auto pt-24 dark:text-gray-200 lg:text-5xl text-4xl font-bold items-center justify-between">
                 <h1>Our Achievements</h1>
             </div>
             <div className="lg:mx-auto mx-5 py-20 flex lg:flex-row flex-col items-center justify-center">
@@ -23,19 +23,19 @@ const Achievements = () => {
                     <div className="lg:mb-32 mb-8">
                     <span className="font-bold text-black text-xl dark:text-white">Hackathon Yogyakarta</span>
                     <p className="lg:text-lg text-sm text-gray-700 dark:text-gray-300 duration-500">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis optio a eaque sint repellendus velit deleniti dolorem iure laborum obcaecati, soluta, eligendi nisi, autem provident assumenda? Reiciendis, quisquam! Rerum, quaerat?
+                        Lomba Hackathon Festival 2018 Jogja - Solo DILo (Digital Innovation Lounge) di Jogja Digital Valley pada tanggal 24-25 November 2018, dengan sebuah produk .....
                     </p>
                     </div>
                     <div className="lg:mb-32 mb-8">
                     <span className="font-bold text-black text-xl dark:text-white">Muslim Hackfest</span>
                     <p className="lg:text-lg text-sm text-gray-700 dark:text-gray-300 duration-500">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis optio a eaque sint repellendus velit deleniti dolorem iure laborum obcaecati, soluta, eligendi nisi, autem provident assumenda? Reiciendis, quisquam! Rerum, quaerat?
+                        Muslim Hackfest merupakan festival dan hackathon muslim virtual pertama di Indonesia yang ditujukan pada masyarakat Indonesia. Maka dari itu, kami memiliki Ide yang menjadi solusi atas permasalahan tersebut. Ide itu.....
                     </p>
                     </div>
                     <div className="lg:mb-32 mb-8">
                     <span className="font-bold text-black text-xl dark:text-white">Kopiconcrete 2021 : Internet of Things Internasional Contest</span>
                     <p className="lg:text-lg text-sm text-gray-700 dark:text-gray-300 duration-500">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis optio a eaque sint repellendus velit deleniti dolorem iure laborum obcaecati, soluta, eligendi nisi, autem provident assumenda? Reiciendis, quisquam! Rerum, quaerat?
+                        CIREBON – STMIK IKMI Cirebon kembali menorehkan prestasi baiknya dalam ajang kejuaraan Internasional kompetisi Kopertip Communication and Creativity Contest (KOPICONCRETE) 2021 dengan produk SMART-CARD.
                     </p>
                     </div>
                 </div>                

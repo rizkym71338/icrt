@@ -4,13 +4,15 @@ const StructuresCard = (props) => {
     return (
         <div className={props.className}>
 
-            <div className="items-center w-64 lg:w-80 pb-3 mb-5 lg:mb-0">
-                <div className="w-52 h-52 mx-auto">
-                    <img
-                        src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
-                        className="rounded-full h-full w-full hover:scale-110 transform duration-300"
-                        align="center"
-                    />
+            <div className="items-center justify-center w-64 lg:w-80 pb-3 mb-5 lg:mb-0">
+                <div className="bg-white w-52 h-52 rounded-full mx-auto pt-0.5 hover:scale-105 transform duration-300">
+                    <div className="w-52 h-52 bg-gradient-to-b from-blue-400 dark:from-blue-500 to-blue-200 dark:to-blue-300 shadow-xl rounded-full">
+                        <img
+                            src={props.src}
+                            className="rounded-full h-full w-full"
+                            align="center"
+                        />
+                    </div>
                 </div>
 
                 <div className="text-center">
