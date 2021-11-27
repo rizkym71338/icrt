@@ -33,7 +33,7 @@ const Structures = () => {
                 </div>
 
             </div>
-            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "hidden"}`}>
+            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div align="center" className="mx-auto mt-10 pt-24 text-5xl font-bold items-center justify-between">
                     <h1>Kesekjenan</h1>
                 </div>
@@ -43,7 +43,7 @@ const Structures = () => {
                     <StructuresCard jabatan="Bendahara" nama="Meita Sutra Safira" jurusan="Teknik Informatika 2020" />
                 </div>
             </div>
-            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "hidden"}`}>
+            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div align="center" className="mx-auto mt-10 pt-24 text-5xl font-bold items-center justify-between">
                     <h1>Divisi</h1>
                 </div>
@@ -57,20 +57,20 @@ const Structures = () => {
                     <StructuresCard jabatan="Divisi Mekanik" nama="Oom Muharromah" jurusan="Teknik Informatika 2020" />
                 </div>
             </div>
-            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "hidden"}`}>
+            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div className="lg:mx-auto mt-10 py-20 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard jabatan="Divisi Software" nama="Rizky Maulana" jurusan="Teknik Informatika 2020" />
                     <StructuresCard jabatan="Divisi Software" nama="Ridwan Firdaus" jurusan="Teknik Informatika 2020" />
                 </div>
             </div>
-            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "hidden"}`}>
+            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div className="lg:mx-auto mt-10 py-20 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard jabatan="Divisi Multimedia" nama="Nursyifa Puspa Ar-Rahmi S" jurusan="Teknik Informatika 2020" />
                     <StructuresCard jabatan="Divisi Multimedia" nama="Siti Marwah" jurusan="Teknik Informatika 2020" />
                     <StructuresCard jabatan="Divisi Multimedia" nama="Rini Rosdiana Ningsih" jurusan="Teknik Informatika 2020" />
                 </div>
             </div>
-            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "hidden"}`}>
+            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div className="lg:mx-auto mt-10 pt-20 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard jabatan="Divisi Humas" nama="Husni Mubarok" jurusan="Teknik Informatika 2020" />
                     <StructuresCard jabatan="Divisi Humas" nama="Iis Siti Aisyah" jurusan="Teknik Informatika 2020" />

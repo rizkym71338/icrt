@@ -18,11 +18,7 @@ const Projects = () => {
                         <ProjectsCard name="Smart Angklung" />
                         <ProjectsCard name="Spider Bot" />
                     </div>
-                </div>
-            </div>
-            <div id="project" className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-all transform duration-500" : "hidden"}`}>
-                <div className="xl:container mx-auto lg:px-10">
-                    <div className="lg:mx-auto pb-20 flex lg:flex-row flex-col items-center justify-between">
+                    <div className={`${showMore ? "lg:mx-auto pb-10 flex lg:flex-row flex-col items-center justify-between transition-all ease-in-out duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                         <ProjectsCard />
                         <ProjectsCard />
                         <ProjectsCard />

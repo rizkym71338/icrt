@@ -28,8 +28,8 @@ const IndexNavbar = () => {
                 </div>
             
 
-                <div className={`${isOpen ? 'block lg:dark:bg-transparent lg:bg-transparent dark:bg-gray-800 bg-white rounded-xl' : 'hidden lg:-translate-y-0 -translate-y-full scale-0 lg:scale-100'} lg:flex flex-col lg:flex-row lg:justify-end lg:w-full mx-5 mt-3 lg:mt-0 transform transition-all ease-out duration-300`}>
-                    <div className="flex flex-col lg:flex-row lg:mr-5 pt-5 lg:pt-0">
+                <div className={`${isOpen ? 'block lg:dark:bg-transparent lg:bg-transparent dark:bg-gray-800 bg-white rounded-xl' : 'h-0 lg:h-full lg:-translate-y-0 -translate-y-full scale-0 lg:scale-100'} lg:flex flex-col lg:flex-row lg:justify-end lg:w-full mx-5 mt-3 lg:mt-0 transform transition-all ease-out duration-300`}>
+                    <div className={`${!isOpen ? "opacity-0 lg:opacity-100" : ""} flex flex-col lg:flex-row lg:mr-5 pt-5 lg:pt-0 `}>
                         <a href="/" className="block py-0 pb-3 lg:py-4 px-5 lg:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Home</a>
                         <a onClick={() => setIsOpen(!isOpen)} href="#team" className="block py-0 pb-3 lg:py-4 px-5 lg:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Team</a>
                         <a onClick={() => setIsOpen(!isOpen)} href="#structure" className="block py-0 pb-3 lg:py-4 px-5 lg:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Structure</a>
@@ -38,7 +38,7 @@ const IndexNavbar = () => {
                         <a onClick={() => setIsOpen(!isOpen)} href="#achievement" className="block py-0 pb-3 lg:py-4 px-5 lg:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Achievement</a>
                         <a onClick={() => setIsOpen(!isOpen)} href="#contact" className="block py-0 pb-3 lg:py-4 px-5 lg:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-white dark:hover:text-blue-500">Contact</a>
                     </div>
-                    <div onClick={() => setIsOpen(!isOpen)} className="flex lg:flex-row justify-center">
+                    <div onClick={() => setIsOpen(!isOpen)} className={`${!isOpen ? "opacity-0 lg:opacity-100" : ""} flex lg:flex-row justify-center `}>
                         <div onClick={() => setTheme(colorTheme)} className="block py-0 pb-5 lg:pb-3 lg:py-4 px-2 duration-500 text-gray-700">
                             {colorTheme === "light" ?
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 dark:hover:text-blue-500 dark:text-white transition duration-300" viewBox="0 0 20 20" fill="currentColor">

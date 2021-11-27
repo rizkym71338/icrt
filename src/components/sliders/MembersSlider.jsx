@@ -122,7 +122,7 @@ const MembersSlider = () => {
         status="Active"
         jurusan="Teknik Informatika 2020"
         />
-      </Carousel>;
+      </Carousel>
     </div>
   )
 }
