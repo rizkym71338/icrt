@@ -21,16 +21,16 @@ const Footer = () => {
 
             <div className=" text-white items-center justify-center py-20">
                 <div className="flex flex-row w-48 mx-auto justify-between">
-                    <a href="https://github.com/ICRT-dev" className="hover:scale-105 transform transition-all duration-300">
+                    <a target="_blank" href="https://github.com/ICRT-dev" className="hover:scale-105 transform transition-all duration-300">
                         {github}
                     </a>
-                    <a href="https://www.instagram.com/icrtikmi/" className="hover:scale-105 transform transition-all duration-300">
+                    <a target="_blank" href="https://www.instagram.com/icrtikmi/" className="hover:scale-105 transform transition-all duration-300">
                         {instagram}
                     </a>
-                    <a href="mailto:robotikaikmi90@gmail.com" className="hover:scale-105 transform transition-all duration-300">
+                    <a target="_blank" href="mailto:robotikaikmi90@gmail.com" className="hover:scale-105 transform transition-all duration-300">
                         {gmail}
                     </a>
-                    <a href="https://www.youtube.com/channel/UCAAVVbKYuAPeqA-J84J6nnA" className="hover:scale-105 transform transition-all duration-300">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCAAVVbKYuAPeqA-J84J6nnA" className="hover:scale-105 transform transition-all duration-300">
                         {youtube}
                     </a>
                 </div>

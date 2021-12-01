@@ -1,22 +1,34 @@
 import React from "react";
 import AchievementsCard from "../components/cards/AchievementsCard";
+import HackathonYogyakarta from "../assets/achievement/hackathon-yogyakarta.png"
+import MuslimHackfets from "../assets/achievement/muslim-hackfest.png"
+import IOT from "../assets/achievement/internet-of-things.png"
 
 const Achievements = () => {
     return (
         <div id="achievement" className="duration-500 xl:container mx-auto lg:px-10">
-            <div align="center" className="lg:mx-auto pt-24 dark:text-gray-200 lg:text-5xl text-4xl font-bold items-center justify-between">
+            <div align="center" className="lg:mx-auto pt-24 dark:text-gray-200 lg:text-5xl text-3xl font-bold items-center justify-between">
                 <h1>Our Achievements</h1>
             </div>
             <div className="lg:mx-auto mx-5 py-20 flex lg:flex-row flex-col items-center justify-center">
                 <div className="lg:w-1/2 w-full mx-auto">
                     <div className="mb-10 mx-auto">
-                        <AchievementsCard name="Yogyakarta,  19 Oktober 2018" />
+                        <AchievementsCard
+                        name="Yogyakarta,  19 Oktober 2018"
+                        img={HackathonYogyakarta}
+                        />
                     </div>
                     <div className="mb-10 mx-auto">
-                        <AchievementsCard name="Cirebon, 23 Januari - 31 Januari 2021" />
+                        <AchievementsCard
+                        name="Cirebon, 23 Januari - 31 Januari 2021"
+                        img={MuslimHackfets}
+                        />
                     </div>
                     <div className="mb-10 mx-auto">
-                        <AchievementsCard name="Cirebon, 30 maret  - 30 April 2021" />
+                        <AchievementsCard
+                        name="Cirebon, 30 maret  - 30 April 2021"
+                        img={IOT}
+                        />
                     </div>
                 </div>                
                 <div className="lg:w-1/2 lg:mx-10 w-full">

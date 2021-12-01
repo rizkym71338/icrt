@@ -53,12 +53,22 @@ const MembersSlider = () => {
     <div className="w-full">
       <Carousel responsive={responsive} infinite={true} containerClass="carousel-container" ssr={true} customRightArrow={<CustomRightArrow />} customLeftArrow={<CustomLeftArrow />}>
         <MembersCard 
-        name="Muh. Fauzan F"
+        name="Moch. Fauzan F"
         facebook="https://www.facebook.com/muhammadfauzanassyifa.alkhairiyah"
         github="https://github.com/Seczan21"
         gmail="mailto:ozan.it212@gmail.com"
         instagram="https://www.instagram.com/ozan_it/"
-        divisi="Mekanik"
+        divisi="Div. Mekanik"
+        status="Active"
+        jurusan="Teknik Informatika 2020"
+        />
+        <MembersCard 
+        name="Wisnu Wijaya"
+        facebook="/"
+        github="/"
+        gmail="/"
+        instagram="/"
+        divisi="Div. Networking"
         status="Active"
         jurusan="Teknik Informatika 2020"
         />
@@ -68,7 +78,7 @@ const MembersSlider = () => {
         github="https://github.com/rizkym71338"
         gmail="mailto:rizkym71338@gmail.com"
         instagram="https://www.instagram.com/rzky_mk"
-        divisi="Software"
+        divisi="Front End Developer"
         status="Active"
         jurusan="Teknik Informatika 2020"
         />

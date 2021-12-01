@@ -87,7 +87,7 @@ const Structures = () => {
                 </div>
             </div>
             <div className="bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500">
-                <div className="items-center justify-center w-full">
+                <div className="items-center justify-center">
                     <div onClick={() => setShowMore(!showMore)} className="text-center pt-5 pb-10 lg:pb-20">
                         <ProjectsButton name={`${!showMore ? "Show More" : "Show Less"}`} />
                     </div>

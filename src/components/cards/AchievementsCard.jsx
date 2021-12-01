@@ -1,13 +1,14 @@
 import React from "react";
+import { act } from "react-dom/cjs/react-dom-test-utils.development";
 
 const AchievementsCard = (props) => {
     return (
         <div className={props.className}>
 
             <div className="items-center justify-between w-full mx-auto rounded-xl pb-3">
-                <div className="mb-4 h-48 lg:w-96 w-80 mx-auto transform duration-300 hover:scale-105">
+                <div className="mb-4 w-80 mx-auto transform duration-300 hover:scale-105">
                     <img
-                        src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
+                        src={props.img}
                         className="rounded-xl w-full h-full"
                         align="center"
                     />
@@ -20,6 +21,10 @@ const AchievementsCard = (props) => {
 
         </div>
     )
+}
+
+AchievementsCard.defaultProps = {
+    img: "https://mdbootstrap.com/img/new/standard/city/031.jpg",
 }
 
 export default AchievementsCard;
