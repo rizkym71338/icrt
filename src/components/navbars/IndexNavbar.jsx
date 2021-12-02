@@ -12,7 +12,7 @@ const IndexNavbar = () => {
         <div className="z-50 duration-500 antialiased lg:shadow-xl lg:bg-white fixed lg:dark:bg-gray-800 w-full">
             <div className="flex flex-col lg:flex-row mx-auto justify-between w-full xl:container">
                 <div className="flex justify-between items-center lg:dark:bg-transparent lg:bg-transparent dark:bg-gray-800 shadow-xl lg:shadow-none bg-white px-6 py-2 lg:py-0">
-                    <div className="h-14">
+                    <div className="lg:h-14 h-10">
                         <a href="/">
                                 <img src={Logo} alt="icrt" className="W-full h-full" />
                         </a>
