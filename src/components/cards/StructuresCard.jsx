@@ -9,9 +9,10 @@ const StructuresCard = (props) => {
                     <div className="w-52 h-52 bg-gradient-to-b from-blue-400 dark:from-blue-500 to-blue-200 dark:to-blue-300 shadow-xl rounded-full">
                         <img
                             src={props.src}
-                            className="rounded-full h-full w-full"
+                            className={`${props.hidden} rounded-full h-full w-full`}
                             align="center"
                         />
+                        {props.svg}
                     </div>
                 </div>
 

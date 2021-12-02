@@ -15,7 +15,9 @@ const AchievementsCard = (props) => {
                 </div>
 
                 <div className="text-center">
-                    <h5 className="text-md font-semibold dark:text-white">{props.name}</h5>
+                    <div>
+                        <h5 className="text-md font-semibold dark:text-white">{props.name}</h5>
+                    </div>
                 </div>
             </div>
 

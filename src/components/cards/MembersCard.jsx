@@ -1,15 +1,18 @@
 import React from "react";
-import Orang1 from "../../assets/img/orang1.png"
 
 const MembersCard = (props) => {
+
     return (
         <div>
 
-            <div className="items-center shadow-xl p-6 my-14 justify-between w-64 mx-auto rounded-xl pb-3 bg-gradient-to-b from-blue-400 to-white dark:from-blue-600 dark:to-blue-400 transition-all transform hover:scale-105 duration-300">
-                <img
-                    src={Orang1}
-                    className="rounded-full mb-5" alt="Orang 1" align="center" width="250px"
-                />
+            <div className="items-center shadow-xl p-6 my-14 justify-between w-64 mx-auto rounded-xl pb-3 bg-gradient-to-b from-blue-400 to-white dark:from-blue-600 dark:to-blue-400 transition-all transform hover:scale-105 duration-500">
+                <div className="w-48 h-48 bg-gradient-to-b from-white dark:from-gray-800 to-gray-300 dark:to-gray-800 transition-all duration-500 rounded-full mx-auto mb-5">
+                    <img
+                        src={props.img}
+                        className={`${props.hidden} rounded-full h-full w-full`}
+                    />
+                    {props.svg}
+                </div>
 
                 <div className="text-center">
                     <h5 className="text-xl font-semibold mb-3">{props.name}</h5>

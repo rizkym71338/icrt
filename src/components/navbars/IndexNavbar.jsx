@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import DarkMode from "../darkmode/DarkMode";
-import Logo from "../../assets/img/logo.png";
+import Logo from "../../assets/svg/icrt.svg";
 
 const IndexNavbar = () => {
 
