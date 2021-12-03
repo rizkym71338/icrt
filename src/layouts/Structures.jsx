@@ -27,10 +27,10 @@ const Structures = () => {
         <div>
             <div id="structure" className="bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500">
                 <div className="xl:container mx-auto lg:px-10">
-                    <div align="center" className="mx-auto pt-24 lg:text-5xl text-4xl font-bold items-center justify-between">
+                    <div align="center" className="mx-auto lg:pt-24 pt-20 lg:text-5xl text-3xl font-bold items-center justify-between">
                         <h1>Our Structure</h1>
                     </div>
-                    <div className="lg:mx-auto py-20 flex lg:flex-row flex-col justify-center items-center">
+                    <div className="lg:mx-auto lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
                         <StructuresCard
                         jabatan="Ketua"
                         nama="Mochammad Fauzan F"
@@ -48,10 +48,10 @@ const Structures = () => {
 
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
-                <div align="center" className="mx-auto mt-10 pt-24 text-5xl font-bold items-center justify-between">
+                <div align="center" className="mx-auto mt-10 lg:pt-24 pt-20 lg:text-5xl text-3xl font-bold items-center justify-between">
                     <h1>Kesekjenan</h1>
                 </div>
-                <div className="lg:mx-auto py-20 flex lg:flex-row flex-col justify-center items-center">
+                <div className="lg:mx-auto lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard
                     jabatan="Sekretaris 1"
                     nama="Siti Marwah"
@@ -74,10 +74,10 @@ const Structures = () => {
                 </div>
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
-                <div align="center" className="mx-auto mt-10 pt-24 text-5xl font-bold items-center justify-between">
+                <div align="center" className="mx-auto mt-10 pt-24 lg:text-5xl text-3xl font-bold items-center justify-between">
                     <h1>Divisi</h1>
                 </div>
-                <div className="lg:mx-auto pt-20 flex lg:flex-row flex-col justify-center items-center">
+                <div className="lg:mx-auto lg:pt-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard
                     jabatan="Divisi Mekanik"
                     nama="Mochammad Fauzan F"
@@ -91,7 +91,7 @@ const Structures = () => {
                     src={Meita}
                     />
                 </div>
-                <div className="lg:mx-auto py-20 flex lg:flex-row flex-col justify-center items-center">
+                <div className="lg:mx-auto lg:py-20 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard
                     jabatan="Divisi Mekanik"
                     nama="Azhar"
@@ -115,7 +115,7 @@ const Structures = () => {
                 </div>
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
-                <div className="lg:mx-auto mt-10 py-20 flex lg:flex-row flex-col justify-center items-center">
+                <div className="lg:mx-auto mt-10 lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard
                     jabatan="Divisi Software"
                     nama="Rizky Maulana"
@@ -132,7 +132,7 @@ const Structures = () => {
                 </div>
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
-                <div className="lg:mx-auto mt-10 py-20 flex lg:flex-row flex-col justify-center items-center">
+                <div className="lg:mx-auto mt-10 lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard
                     jabatan="Divisi Multimedia"
                     nama="Nursyifa Puspa Ar-Rahmi S"
@@ -155,7 +155,7 @@ const Structures = () => {
                 </div>
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
-                <div className="lg:mx-auto mt-10 pt-20 flex lg:flex-row flex-col justify-center items-center">
+                <div className="lg:mx-auto mt-10 lg:pt-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard
                     jabatan="Divisi Humas"
                     nama="Husni Mubarok"
@@ -169,7 +169,7 @@ const Structures = () => {
                     src={Iis}
                     />
                 </div>
-                <div className="lg:mx-auto mt-10 pb-20 flex lg:flex-row flex-col justify-center items-center">
+                <div className="lg:mx-auto lg:mt-10 lg:pb-20 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard
                     jabatan="Divisi Humas"
                     nama="Eviyanti"
@@ -186,7 +186,7 @@ const Structures = () => {
                 </div>
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "hidden"}`}>
-                <div className="lg:mx-auto mt-10 py-20 flex lg:flex-row flex-col justify-center items-center">
+                <div id="showlessStructure" className="lg:mx-auto mt-10 lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard
                     jabatan="Divisi Networking"
                     nama="Wisnu Wijaya"
@@ -207,6 +207,13 @@ const Structures = () => {
                         <ProjectsButton name={`${!showMore ? "Show More" : "Show Less"}`} />
                     </div>
                 </div>
+            </div>
+            <div>
+                <a href="#showlessStructure" className={`${!showMore ? "fixed h-0 w-0 opacity-0" : "fixed bottom-0 right-0 lg:m-10 m-5"} transform transition-all ease-in-out duration-500`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className={`${!showMore ? "opacity-0" : ""} lg:h-14 lg:w-14 h-10 w-10 shadow-xl bg-white text-blue-500 rounded-full lg:px-3 px-2`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+                    </svg>   
+                </a> 
             </div>
         </div>
     )

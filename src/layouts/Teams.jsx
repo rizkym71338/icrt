@@ -141,26 +141,26 @@ const Teams = () => {
     return (
         <div id="team" className="dark:bg-gray-800 duration-500">
             <div className="mx-auto xl:container lg:px-10">
-                <div align="center" className="mx-auto pt-24 dark:text-gray-200 lg:text-5xl text-4xl font-bold items-center justify-between">
+                <div align="center" className="mx-auto lg:pt-24 pt-20 dark:text-gray-200 lg:text-5xl text-4xl font-bold items-center justify-between">
                     <h1>Our Teams</h1>
                 </div>
-                <div className="mx-auto py-20 flex lg:flex-row flex-col justify-between">
+                <div className="mx-auto lg:py-20 pt-5 pb-20 flex lg:flex-row flex-col justify-between">
                     <TeamsCard
                     logo={alfatih}
                     name="Al-Fatih Team"
-                    className="mb-5 lg:mb-0"
+                    className="mb-3 lg:mb-0"
                     deskripsi="Team of ICRT (IKMI Cirebon Robotic Team) Berjuang BERSAMA - KOMPAK - BERKARYA🔥"
                     />
                     <TeamsCard
                     logo={alkhawarizmi}
                     name="Al-Khawarismi Team"
-                    className="mb-5 lg:mb-0"
+                    className="mb-3 lg:mb-0"
                     deskripsi="Team of ICRT (IKMI Cirebon Robotic Team) Berjuang BERSAMA - KOMPAK - BERKARYA🔥"
                     />
                     <TeamsCard
                     logo={heroes}
                     name="Heroes Team"
-                    className="mb-5 lg:mb-0"
+                    className="mb-3 lg:mb-0"
                     deskripsi="Team of ICRT (IKMI Cirebon Robotic Team) Berjuang BERSAMA - KOMPAK - BERKARYA🔥"
                     />
                     <TeamsCard

@@ -12,7 +12,7 @@ const TeamsCard = (props) => {
                 </div>
 
                 <div className="text-center block mx-auto justify-center align-middle items-center">
-                    <p className="my-4 mx-3 block md:text-sm text-gray-700 dark:text-gray-300">
+                    <p className="lg:my-4 mx-3 block md:text-sm text-gray-700 dark:text-gray-300">
                         {props.deskripsi}
                     </p>
                 </div>
