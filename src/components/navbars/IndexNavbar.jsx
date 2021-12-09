@@ -137,7 +137,7 @@ const IndexNavbar = () => {
 
 
                 <div className={`${isOpen ? 'block lg:dark:bg-transparent lg:bg-transparent dark:bg-gray-800 bg-white rounded-xl' : 'h-0 lg:h-full lg:-translate-y-0 -translate-y-full scale-0 lg:scale-100'} lg:flex flex-col lg:flex-row lg:justify-end lg:w-full mx-5 mt-3 lg:mt-0 transform transition-all ease-out duration-300`}>
-                    <div className={`${!isOpen ? "opacity-0 lg:opacity-100" : ""} flex flex-col lg:flex-row lg:mr-5 pt-5 pb-2 lg:pt-0 `}>
+                    <div className={`${!isOpen ? "opacity-0 lg:opacity-100" : ""} flex flex-col lg:flex-row lg:mr-5 pt-5 pb-2 lg:py-0 `}>
                         <a href="/" className="block py-0 pb-3 lg:py-4 px-5 lg:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-gray-100 dark:hover:text-blue-500">Home</a>
                         <a onClick={() => setIsOpen(!isOpen)} href="#team" className="block py-0 pb-3 lg:py-4 px-5 lg:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-gray-100 dark:hover:text-blue-500">Team</a>
                         <a onClick={() => setIsOpen(!isOpen)} href="#structure" className="block py-0 pb-3 lg:py-4 px-5 lg:border-b-4 border-transparent duration-300 hover:border-blue-500 hover:text-blue-500 dark:text-gray-100 dark:hover:text-blue-500">Structure</a>

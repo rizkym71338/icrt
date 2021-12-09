@@ -9,6 +9,7 @@ import Meita from "../assets/structure/meita.png";
 import Fahmi from "../assets/structure/fahmi.png";
 import Rizky from "../assets/structure/rizky.png";
 import Rini from "../assets/structure/rini.png";
+import Guntur from "../assets/structure/guntur.png";
 import Husni from "../assets/structure/husni.png";
 import Iis from "../assets/structure/iis.png";
 import Risma from "../assets/structure/risma.png";
@@ -132,7 +133,7 @@ const Structures = () => {
                 </div>
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
-                <div className="lg:mx-auto mt-10 lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
+                <div className="g:mx-auto mt-10 lg:pt-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard
                         jabatan="Divisi Multimedia"
                         nama="Nursyifa Puspa Ar-Rahmi S"
@@ -146,11 +147,19 @@ const Structures = () => {
                         jurusan="Teknik Informatika 2020"
                         src={Marwah}
                     />
+                </div>
+                <div className="lg:mx-auto lg:mt-10 lg:pb-20 flex lg:flex-row flex-col justify-center items-center">
                     <StructuresCard
                         jabatan="Divisi Multimedia"
                         nama="Rini Rosdiana Ningsih"
                         jurusan="Teknik Informatika 2020"
                         src={Rini}
+                    />
+                    <StructuresCard
+                        jabatan="Divisi Multimedia"
+                        nama="Guntur Aji Saputra"
+                        jurusan="Teknik Informatika 2020"
+                        src={Guntur}
                     />
                 </div>
             </div>
