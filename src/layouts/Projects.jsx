@@ -9,18 +9,24 @@ const Projects = () => {
 
     return (
         <div>
-            <div id="project" className="z-30 bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500">
+            <div id="project" className="z-30 bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500 overflow-hidden">
                 <div className="xl:container mx-auto lg:px-10">
                     <div align="center" className="mx-auto lg:pt-24 pt-20 lg:text-5xl text-3xl font-bold items-center justify-between">
                         <h1>Our Project</h1>
                     </div>
                     <div className="lg:mx-auto lg:pt-20 pt-10 flex lg:flex-row flex-col items-center justify-center lg:space-x-10">
-                        <ProjectsCard
-                            name="Smart Card"
-                            img={smartCard}
-                        />
-                        <ProjectsCard name="Smart Angklung" />
-                        <ProjectsCard name="Spider Bot" />
+                        <div data-aos="zoom-in-right">
+                            <ProjectsCard
+                                name="Smart Card"
+                                img={smartCard}
+                            />
+                        </div>
+                        <div data-aos="zoom-in">
+                            <ProjectsCard name="Smart Angklung" />
+                        </div>
+                        <div data-aos="zoom-in-left">
+                            <ProjectsCard name="Spider Bot" />
+                        </div>
                     </div>
                     <div className={`${showMore ? "lg:mx-auto pb-10 flex lg:flex-row flex-col " : "overflow-hidden  opacity-0 h-0 w-0"} items-center justify-center lg:space-x-10 transition-all ease-in-out duration-500 `}>
                         <ProjectsCard />
@@ -30,7 +36,7 @@ const Projects = () => {
                 </div>
             </div>
             <div id="project" className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-all transform duration-500" : "hidden"}`}>
-                <div className="xl:container mx-auto lg:px-10">
+                <div className="container mx-auto lg:px-10">
                     <div className="lg:mx-auto pt-20 mt-10 flex lg:flex-row flex-col items-center justify-center lg:space-x-10">
                         <ProjectsCard />
                         <ProjectsCard />

@@ -1,13 +1,12 @@
 import React from "react";
-import Img from "../../assets/img/header.png"
 import HeaderButton from "../buttons/HeaderButton";
 
 const IndexHeader = () => {
     return (
-        <div className='lg:bg-gradient-to-l bg-gradient-to-b from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-l dark:from-blue-500 dark:to-blue-300 transition-all duration-500 xl:h-screen 2xl:h-auto'>
+        <div className='lg:bg-gradient-to-l bg-gradient-to-b from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-l dark:from-blue-500 dark:to-blue-300 transition-all duration-500 xl:h-screen 2xl:h-auto relative overflow-hidden'>
 
             <div className="flex md:flex-row lg:px-10 flex-col lg:mx-auto mx-5 lg:py-20 pt-20 pb-10 justify-center items-center transition duration-500 xl:container">
-                <div className="flex flex-col lg:w-2/3 w-full lg:py-20 py-5">
+                <div data-aos="fade-right" className="flex flex-col lg:w-2/3 w-full lg:py-20 py-5">
                     <div className="flex flex-col lg:flex-row xl:text-5xl text-3xl mb-3 lg:text-left lg:justify-start justify-center text-center mx-auto lg:mx-0">
                         <h1 className="font-bold text-black">Ikmi Cirebon </h1>
                         <h1 className="lg:ml-5 font-bold text-gray-600">Robotik Team</h1>
@@ -30,7 +29,7 @@ const IndexHeader = () => {
                         <HeaderButton name="Member" href="#member" />
                     </div>
                 </div>
-                <div className="flex-col lg:w-1/3 w-full mx-auto mt-5 lg:mt-0">
+                <div data-aos="fade-left" className="flex-col lg:w-1/3 w-full mx-auto mt-5 lg:mt-0">
                     <div className="w-full items-center">
                         <svg className="w-full h-full" viewBox="0 0 540 540" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M314.837 275.003L301.337 260.069L278.21 261.512L248.079 290.191L278.927 271.873L314.837 275.003Z" fill="#4264FF" stroke="#231F20" stroke-width="1.49" stroke-miterlimit="10" />

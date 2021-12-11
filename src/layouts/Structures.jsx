@@ -27,23 +27,27 @@ const Structures = () => {
     return (
         <div>
             <div id="structure" className="bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500">
-                <div className="xl:container mx-auto lg:px-10">
+                <div className="container mx-auto lg:px-10">
                     <div align="center" className="mx-auto lg:pt-24 pt-20 lg:text-5xl text-3xl font-bold items-center justify-between">
                         <h1>Our Structure</h1>
                     </div>
                     <div className="lg:mx-auto lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                        <StructuresCard
-                            jabatan="Ketua"
-                            nama="Mochammad Fauzan F"
-                            jurusan="Teknik Informatika 2020"
-                            src={Fauzan}
-                        />
-                        <StructuresCard
-                            jabatan="Wakil Ketua"
-                            nama="Wisnu Wijaya"
-                            jurusan="Teknik Informatika 2020"
-                            src={Wisnu}
-                        />
+                        <div data-aos="zoom-in-right">
+                            <StructuresCard
+                                jabatan="Ketua"
+                                nama="Mochammad Fauzan F"
+                                jurusan="Teknik Informatika 2020"
+                                src={Fauzan}
+                            />
+                        </div>
+                        <div data-aos="zoom-in-left">
+                            <StructuresCard
+                                jabatan="Wakil Ketua"
+                                nama="Wisnu Wijaya"
+                                jurusan="Teknik Informatika 2020"
+                                src={Wisnu}
+                            />
+                        </div>
                     </div>
                 </div>
 
@@ -53,25 +57,31 @@ const Structures = () => {
                     <h1>Kesekjenan</h1>
                 </div>
                 <div className="lg:mx-auto lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                    <StructuresCard
-                        jabatan="Sekretaris 1"
-                        nama="Siti Marwah"
-                        jurusan="Teknik Informatika 2020"
-                        src={Marwah}
-                    />
-                    <StructuresCard
-                        jabatan="Sekretaris 2"
-                        nama="Nursyifa Puspa Ar-Rahmi S"
-                        jurusan="Teknik Informatika 2020"
-                        hidden="hidden"
-                        svg={Default}
-                    />
-                    <StructuresCard
-                        jabatan="Bendahara"
-                        nama="Meita Sutra Safira"
-                        jurusan="Teknik Informatika 2020"
-                        src={Meita}
-                    />
+                    <div data-aos="zoom-in-right">
+                        <StructuresCard
+                            jabatan="Sekretaris 1"
+                            nama="Siti Marwah"
+                            jurusan="Teknik Informatika 2020"
+                            src={Marwah}
+                        />
+                    </div>
+                    <div data-aos="zoom-in">
+                        <StructuresCard
+                            jabatan="Sekretaris 2"
+                            nama="Nursyifa Puspa Ar-Rahmi S"
+                            jurusan="Teknik Informatika 2020"
+                            hidden="hidden"
+                            svg={Default}
+                        />
+                    </div>
+                    <div data-aos="zoom-in-left">
+                        <StructuresCard
+                            jabatan="Bendahara"
+                            nama="Meita Sutra Safira"
+                            jurusan="Teknik Informatika 2020"
+                            src={Meita}
+                        />
+                    </div>
                 </div>
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
@@ -79,135 +89,169 @@ const Structures = () => {
                     <h1>Divisi</h1>
                 </div>
                 <div className="lg:mx-auto lg:pt-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                    <StructuresCard
-                        jabatan="Divisi Mekanik"
-                        nama="Mochammad Fauzan F"
-                        jurusan="Teknik Informatika 2020"
-                        src={Fauzan}
-                    />
-                    <StructuresCard
-                        jabatan="Divisi Mekanik"
-                        nama="Meita Sutra Safira"
-                        jurusan="Teknik Informatika 2020"
-                        src={Meita}
-                    />
+                    <div data-aos="zoom-in-right">
+                        <StructuresCard
+                            jabatan="Divisi Mekanik"
+                            nama="Mochammad Fauzan F"
+                            jurusan="Teknik Informatika 2020"
+                            src={Fauzan}
+                        />
+                    </div>
+                    <div data-aos="zoom-in-left">
+                        <StructuresCard
+                            jabatan="Divisi Mekanik"
+                            nama="Meita Sutra Safira"
+                            jurusan="Teknik Informatika 2020"
+                            src={Meita}
+                        />
+                    </div>
                 </div>
                 <div className="lg:mx-auto lg:py-20 flex lg:flex-row flex-col justify-center items-center">
-                    <StructuresCard
-                        jabatan="Divisi Mekanik"
-                        nama="Azhar"
-                        jurusan="Teknik Informatika 2020"
-                        hidden="hidden"
-                        svg={Default}
-                    />
-                    <StructuresCard
-                        jabatan="Divisi Mekanik"
-                        nama="Fahmi Afandi"
-                        jurusan="Teknik Informatika 2020"
-                        src={Fahmi}
-                    />
-                    <StructuresCard
-                        jabatan="Divisi Mekanik"
-                        nama="Oom Muharromah"
-                        jurusan="Teknik Informatika 2020"
-                        hidden="hidden"
-                        svg={Default}
-                    />
+                    <div data-aos="zoom-in-right">
+                        <StructuresCard
+                            jabatan="Divisi Mekanik"
+                            nama="Azhar"
+                            jurusan="Teknik Informatika 2020"
+                            hidden="hidden"
+                            svg={Default}
+                        />
+                    </div>
+                    <div data-aos="zoom-in">
+                        <StructuresCard
+                            jabatan="Divisi Mekanik"
+                            nama="Fahmi Afandi"
+                            jurusan="Teknik Informatika 2020"
+                            src={Fahmi}
+                        />
+                    </div>
+                    <div data-aos="zoom-in-left">
+                        <StructuresCard
+                            jabatan="Divisi Mekanik"
+                            nama="Oom Muharromah"
+                            jurusan="Teknik Informatika 2020"
+                            hidden="hidden"
+                            svg={Default}
+                        />
+                    </div>
                 </div>
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div className="lg:mx-auto mt-10 lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                    <StructuresCard
-                        jabatan="Divisi Software"
-                        nama="Rizky Maulana"
-                        jurusan="Teknik Informatika 2020"
-                        src={Rizky}
-                    />
-                    <StructuresCard
-                        jabatan="Divisi Software"
-                        nama="Ridwan Firdaus"
-                        jurusan="Teknik Informatika 2020"
-                        hidden="hidden"
-                        svg={Default}
-                    />
+                    <div data-aos="zoom-in-right">
+                        <StructuresCard
+                            jabatan="Divisi Software"
+                            nama="Rizky Maulana"
+                            jurusan="Teknik Informatika 2020"
+                            src={Rizky}
+                        />
+                    </div>
+                    <div data-aos="zoom-in-left">
+                        <StructuresCard
+                            jabatan="Divisi Software"
+                            nama="Ridwan Firdaus"
+                            jurusan="Teknik Informatika 2020"
+                            hidden="hidden"
+                            svg={Default}
+                        />
+                    </div>
                 </div>
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div className="g:mx-auto mt-10 lg:pt-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                    <StructuresCard
-                        jabatan="Divisi Multimedia"
-                        nama="Nursyifa Puspa Ar-Rahmi S"
-                        jurusan="Teknik Informatika 2020"
-                        hidden="hidden"
-                        svg={Default}
-                    />
-                    <StructuresCard
-                        jabatan="Divisi Multimedia"
-                        nama="Siti Marwah"
-                        jurusan="Teknik Informatika 2020"
-                        src={Marwah}
-                    />
+                    <div data-aos="zoom-in-right">
+                        <StructuresCard
+                            jabatan="Divisi Multimedia"
+                            nama="Nursyifa Puspa Ar-Rahmi S"
+                            jurusan="Teknik Informatika 2020"
+                            hidden="hidden"
+                            svg={Default}
+                        />
+                    </div>
+                    <div data-aos="zoom-in-left">
+                        <StructuresCard
+                            jabatan="Divisi Multimedia"
+                            nama="Siti Marwah"
+                            jurusan="Teknik Informatika 2020"
+                            src={Marwah}
+                        />
+                    </div>
                 </div>
                 <div className="lg:mx-auto lg:mt-10 lg:pb-20 flex lg:flex-row flex-col justify-center items-center">
-                    <StructuresCard
-                        jabatan="Divisi Multimedia"
-                        nama="Rini Rosdiana Ningsih"
-                        jurusan="Teknik Informatika 2020"
-                        src={Rini}
-                    />
-                    <StructuresCard
-                        jabatan="Divisi Multimedia"
-                        nama="Guntur Aji Saputra"
-                        jurusan="Teknik Informatika 2020"
-                        src={Guntur}
-                    />
+                    <div data-aos="zoom-in-right">
+                        <StructuresCard
+                            jabatan="Divisi Multimedia"
+                            nama="Rini Rosdiana Ningsih"
+                            jurusan="Teknik Informatika 2020"
+                            src={Rini}
+                        />
+                    </div>
+                    <div data-aos="zoom-in-left">
+                        <StructuresCard
+                            jabatan="Divisi Multimedia"
+                            nama="Guntur Aji Saputra"
+                            jurusan="Teknik Informatika 2020"
+                            src={Guntur}
+                        />
+                    </div>
                 </div>
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div className="lg:mx-auto mt-10 lg:pt-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                    <StructuresCard
-                        jabatan="Divisi Humas"
-                        nama="Husni Mubarok"
-                        jurusan="Teknik Informatika 2020"
-                        src={Husni}
-                    />
-                    <StructuresCard
-                        jabatan="Divisi Humas"
-                        nama="Iis Siti Aisyah"
-                        jurusan="Teknik Informatika 2020"
-                        src={Iis}
-                    />
+                    <div data-aos="zoom-in-right">
+                        <StructuresCard
+                            jabatan="Divisi Humas"
+                            nama="Husni Mubarok"
+                            jurusan="Teknik Informatika 2020"
+                            src={Husni}
+                        />
+                    </div>
+                    <div data-aos="zoom-in-left">
+                        <StructuresCard
+                            jabatan="Divisi Humas"
+                            nama="Iis Siti Aisyah"
+                            jurusan="Teknik Informatika 2020"
+                            src={Iis}
+                        />
+                    </div>
                 </div>
                 <div className="lg:mx-auto lg:mt-10 lg:pb-20 flex lg:flex-row flex-col justify-center items-center">
-                    <StructuresCard
-                        jabatan="Divisi Humas"
-                        nama="Eviyanti"
-                        jurusan="Teknik Informatika 2020"
-                        hidden="hidden"
-                        svg={Default}
-                    />
-                    <StructuresCard
-                        jabatan="Divisi Humas"
-                        nama="Risma Ardhani"
-                        jurusan="Teknik Informatika 2020"
-                        src={Risma}
-                    />
+                    <div data-aos="zoom-in-right">
+                        <StructuresCard
+                            jabatan="Divisi Humas"
+                            nama="Eviyanti"
+                            jurusan="Teknik Informatika 2020"
+                            hidden="hidden"
+                            svg={Default}
+                        />
+                    </div>
+                    <div data-aos="zoom-in-left">
+                        <StructuresCard
+                            jabatan="Divisi Humas"
+                            nama="Risma Ardhani"
+                            jurusan="Teknik Informatika 2020"
+                            src={Risma}
+                        />
+                    </div>
                 </div>
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "hidden"}`}>
                 <div id="showlessStructure" className="lg:mx-auto mt-10 lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                    <StructuresCard
-                        jabatan="Divisi Networking"
-                        nama="Wisnu Wijaya"
-                        jurusan="Teknik Informatika 2020"
-                        src={Wisnu}
-                    />
-                    <StructuresCard
-                        jabatan="Divisi Networking"
-                        nama="Imam Arifin"
-                        jurusan="Teknik Informatika 2020"
-                        src={Imam}
-                    />
+                    <div data-aos="zoom-in-right">
+                        <StructuresCard
+                            jabatan="Divisi Networking"
+                            nama="Wisnu Wijaya"
+                            jurusan="Teknik Informatika 2020"
+                            src={Wisnu}
+                        />
+                    </div>
+                    <div data-aos="zoom-in-left">
+                        <StructuresCard
+                            jabatan="Divisi Networking"
+                            nama="Imam Arifin"
+                            jurusan="Teknik Informatika 2020"
+                            src={Imam}
+                        />
+                    </div>
                 </div>
             </div>
             <div className="bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500">

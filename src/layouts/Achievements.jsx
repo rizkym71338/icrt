@@ -6,32 +6,32 @@ import IOT from "../assets/achievement/internet-of-things.png"
 
 const Achievements = () => {
     return (
-        <div id="achievement" className="duration-500 xl:container mx-auto lg:px-10">
+        <div id="achievement" className="duration-500 container mx-auto lg:px-10 overflow-hidden">
             <div align="center" className="lg:mx-auto lg:pt-24 pt-20 dark:text-gray-200 lg:text-5xl text-3xl font-bold items-center justify-between">
                 <h1>Our Achievements</h1>
             </div>
             <div className="lg:mx-auto mx-5 lg:py-20 pt-10 flex lg:flex-row flex-col items-center justify-center">
-                <div className="lg:w-1/2 w-full mx-auto">
+                <div data-aos="flip-left" className="lg:w-1/2 w-full mx-auto">
                     <div className="mb-10 mx-auto">
                         <AchievementsCard
-                        name="Yogyakarta,  19 Oktober 2018"
-                        img={HackathonYogyakarta}
+                            name="Yogyakarta,  19 Oktober 2018"
+                            img={HackathonYogyakarta}
                         />
                     </div>
                     <div className="mb-10 mx-auto">
                         <AchievementsCard
-                        name="Cirebon, 23 Januari - 31 Januari 2021"
-                        img={MuslimHackfets}
+                            name="Cirebon, 23 Januari - 31 Januari 2021"
+                            img={MuslimHackfets}
                         />
                     </div>
                     <div className="mb-10 mx-auto">
                         <AchievementsCard
-                        name="Cirebon, 30 maret  - 30 April 2021"
-                        img={IOT}
+                            name="Cirebon, 30 maret  - 30 April 2021"
+                            img={IOT}
                         />
                     </div>
-                </div>                
-                <div className="lg:w-1/2 lg:mx-10 w-full">
+                </div>
+                <div data-aos="fade-up-left" className="lg:w-1/2 lg:mx-10 w-full">
                     <div className="lg:mb-32 mb-8">
                         <span className="font-bold text-black text-xl dark:text-white">Hackathon Yogyakarta</span>
                         <p className="lg:text-lg text-sm text-gray-700 dark:text-gray-300 duration-500">
@@ -53,7 +53,7 @@ const Achievements = () => {
                         </p>
                         <a href="/" className="text-blue-500 font-bold">Read More</a>
                     </div>
-                </div>                
+                </div>
             </div>
 
         </div>

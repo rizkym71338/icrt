@@ -19,10 +19,10 @@ const StructuresCard = (props) => {
                 <div className="text-center">
                     <h5 className="text-2xl font-semibold mt-10 mb-5">{props.jabatan}</h5>
                     <p className="mx-3 text-lg font-bold">
-                    {props.nama}
+                        {props.nama}
                     </p>
                     <p className="mx-3 text-md text-gray-700">
-                    {props.jurusan}
+                        {props.jurusan}
                     </p>
                 </div>
             </div>

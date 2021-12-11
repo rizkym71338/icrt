@@ -19,7 +19,7 @@ const Footer = () => {
     return (
         <div>
 
-            <div className=" text-white items-center justify-center py-20">
+            <div className="text-white items-center justify-center py-20">
                 <div className="flex flex-row w-60 mx-auto justify-between items-center">
                     <div className="w-10 flex justify-center items-center">
                         <a target="_blank" href="https://github.com/ICRT-dev" className="hover:scale-105 transform transition-all duration-300">

@@ -1,5 +1,4 @@
 import React from "react";
-import { act } from "react-dom/cjs/react-dom-test-utils.development";
 
 const AchievementsCard = (props) => {
     return (

@@ -70,7 +70,7 @@ const MembersSlider = () => {
   </svg>
 
   return (
-    <div className="w-full">
+    <div data-aos="fade-up" className="w-full">
       <Carousel responsive={responsive} infinite={true} containerClass="carousel-container" ssr={true} customRightArrow={<CustomRightArrow />} customLeftArrow={<CustomLeftArrow />}>
         <MembersCard
           img={Fauzan}
