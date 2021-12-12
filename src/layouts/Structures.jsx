@@ -57,7 +57,7 @@ const Structures = () => {
                     <h1>Kesekjenan</h1>
                 </div>
                 <div className="lg:mx-auto lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                    <div data-aos="zoom-in-right">
+                    <div>
                         <StructuresCard
                             jabatan="Sekretaris 1"
                             nama="Siti Marwah"
@@ -65,7 +65,7 @@ const Structures = () => {
                             src={Marwah}
                         />
                     </div>
-                    <div data-aos="zoom-in">
+                    <div>
                         <StructuresCard
                             jabatan="Sekretaris 2"
                             nama="Nursyifa Puspa Ar-Rahmi S"
@@ -74,7 +74,7 @@ const Structures = () => {
                             svg={Default}
                         />
                     </div>
-                    <div data-aos="zoom-in-left">
+                    <div>
                         <StructuresCard
                             jabatan="Bendahara"
                             nama="Meita Sutra Safira"
@@ -89,7 +89,7 @@ const Structures = () => {
                     <h1>Divisi</h1>
                 </div>
                 <div className="lg:mx-auto lg:pt-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                    <div data-aos="zoom-in-right">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Mekanik"
                             nama="Mochammad Fauzan F"
@@ -97,7 +97,7 @@ const Structures = () => {
                             src={Fauzan}
                         />
                     </div>
-                    <div data-aos="zoom-in-left">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Mekanik"
                             nama="Meita Sutra Safira"
@@ -107,7 +107,7 @@ const Structures = () => {
                     </div>
                 </div>
                 <div className="lg:mx-auto lg:py-20 flex lg:flex-row flex-col justify-center items-center">
-                    <div data-aos="zoom-in-right">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Mekanik"
                             nama="Azhar"
@@ -116,7 +116,7 @@ const Structures = () => {
                             svg={Default}
                         />
                     </div>
-                    <div data-aos="zoom-in">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Mekanik"
                             nama="Fahmi Afandi"
@@ -124,7 +124,7 @@ const Structures = () => {
                             src={Fahmi}
                         />
                     </div>
-                    <div data-aos="zoom-in-left">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Mekanik"
                             nama="Oom Muharromah"
@@ -137,7 +137,7 @@ const Structures = () => {
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div className="lg:mx-auto mt-10 lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                    <div data-aos="zoom-in-right">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Software"
                             nama="Rizky Maulana"
@@ -145,7 +145,7 @@ const Structures = () => {
                             src={Rizky}
                         />
                     </div>
-                    <div data-aos="zoom-in-left">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Software"
                             nama="Ridwan Firdaus"
@@ -158,7 +158,7 @@ const Structures = () => {
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div className="g:mx-auto mt-10 lg:pt-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                    <div data-aos="zoom-in-right">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Multimedia"
                             nama="Nursyifa Puspa Ar-Rahmi S"
@@ -167,7 +167,7 @@ const Structures = () => {
                             svg={Default}
                         />
                     </div>
-                    <div data-aos="zoom-in-left">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Multimedia"
                             nama="Siti Marwah"
@@ -177,7 +177,7 @@ const Structures = () => {
                     </div>
                 </div>
                 <div className="lg:mx-auto lg:mt-10 lg:pb-20 flex lg:flex-row flex-col justify-center items-center">
-                    <div data-aos="zoom-in-right">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Multimedia"
                             nama="Rini Rosdiana Ningsih"
@@ -185,7 +185,7 @@ const Structures = () => {
                             src={Rini}
                         />
                     </div>
-                    <div data-aos="zoom-in-left">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Multimedia"
                             nama="Guntur Aji Saputra"
@@ -197,7 +197,7 @@ const Structures = () => {
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div className="lg:mx-auto mt-10 lg:pt-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                    <div data-aos="zoom-in-right">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Humas"
                             nama="Husni Mubarok"
@@ -205,7 +205,7 @@ const Structures = () => {
                             src={Husni}
                         />
                     </div>
-                    <div data-aos="zoom-in-left">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Humas"
                             nama="Iis Siti Aisyah"
@@ -215,7 +215,7 @@ const Structures = () => {
                     </div>
                 </div>
                 <div className="lg:mx-auto lg:mt-10 lg:pb-20 flex lg:flex-row flex-col justify-center items-center">
-                    <div data-aos="zoom-in-right">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Humas"
                             nama="Eviyanti"
@@ -224,7 +224,7 @@ const Structures = () => {
                             svg={Default}
                         />
                     </div>
-                    <div data-aos="zoom-in-left">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Humas"
                             nama="Risma Ardhani"
@@ -236,7 +236,7 @@ const Structures = () => {
             </div>
             <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "hidden"}`}>
                 <div id="showlessStructure" className="lg:mx-auto mt-10 lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
-                    <div data-aos="zoom-in-right">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Networking"
                             nama="Wisnu Wijaya"
@@ -244,7 +244,7 @@ const Structures = () => {
                             src={Wisnu}
                         />
                     </div>
-                    <div data-aos="zoom-in-left">
+                    <div>
                         <StructuresCard
                             jabatan="Divisi Networking"
                             nama="Imam Arifin"

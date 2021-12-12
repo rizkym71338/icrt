@@ -103,9 +103,9 @@ const IndexNavbar = () => {
 
     return (
         <div >
-            <div data-aos="fade-down" className="z-50 duration-500 lg:shadow-xl lg:bg-white fixed lg:dark:bg-gray-800 w-full">
+            <div data-aos="fade-down" className="z-50 antialiased duration-500 lg:shadow-xl lg:bg-white fixed lg:dark:bg-gray-800 w-full">
                 <div className="flex flex-col lg:flex-row justify-between xl:container mx-auto">
-                    <div className="flex justify-between items-center lg:dark:bg-transparent lg:bg-transparent dark:bg-gray-800 shadow-xl lg:shadow-none bg-white px-6 py-2 lg:py-0">
+                    <div className="flex justify-between items-center lg:dark:bg-transparent lg:bg-transparent dark:bg-gray-800 shadow-xl duration-500 lg:shadow-none bg-white px-6 py-2 lg:py-0">
                         <div className="lg:h-14 h-10">
                             <a href="/">
                                 {Logo}
