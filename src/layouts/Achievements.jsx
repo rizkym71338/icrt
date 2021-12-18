@@ -7,7 +7,7 @@ import IOT from "../assets/achievement/internet-of-things.png"
 const Achievements = () => {
     return (
         <div id="achievement" className="duration-500 container mx-auto lg:px-10 overflow-hidden">
-            <div align="center" className="lg:mx-auto lg:pt-24 pt-20 dark:text-gray-200 lg:text-5xl text-3xl dark:text-gray-300 font-bold items-center justify-between">
+            <div align="center" className="lg:mx-auto lg:pt-24 pt-20 dark:text-gray-300 lg:text-5xl text-3xl font-bold items-center justify-between">
                 <h1>Our Achievements</h1>
             </div>
             <div className="lg:mx-auto mx-5 lg:py-20 pt-10 flex lg:flex-row flex-col items-center justify-center">
