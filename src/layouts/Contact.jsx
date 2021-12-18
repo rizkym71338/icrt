@@ -62,7 +62,7 @@ const Contact = () => {
     };
 
     return (
-        <div id="contact" className="lg:bg-gradient-to-l bg-gradient-to-t from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500 overflow-hidden">
+        <div id="contact" className="lg:bg-gradient-to-l bg-gradient-to-t from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-600 dark:to-blue-400  transition-color duration-500 overflow-hidden">
             <div className="container mx-auto lg:py-24 py-20 lg:px-10 px-5">
                 <div align="center" className="mx-auto lg:text-5xl text-3xl font-bold items-center justify-between">
                     <h1>Get In Touch</h1>
@@ -73,7 +73,7 @@ const Contact = () => {
                             <input type="text" className="p-3 dark:text-white dark:bg-gray-800 my-5 duration-300 transition-all ease-in-out w-full rounded-lg shadow-xl border-opacity-0 outline-none" placeholder="Nama" name="nama" required />
                             <input type="email" className="p-3 dark:text-white dark:bg-gray-800 my-5 duration-300 transition-all ease-in-out w-full rounded-lg shadow-xl outline-none" placeholder="Email" name="email" required />
                             <textarea type="text" rows="5" className="p-3 dark:text-white dark:bg-gray-800 my-5 duration-300 transition-all ease-in-out w-full rounded-lg shadow-xl outline-none" placeholder="Pesan" name="pesan" required />
-                            <button type="submit" className="bg-blue-500 rounded-xl my-5 text-white dark:text-gray-800 px-10 py-3 transition-all transform hover:scale-110 duration-300 shadow-xl font-bold justify-end">Kirim</button>
+                            <button type="submit" className="bg-blue-500 dark:bg-blue-600 rounded-xl my-5 text-white dark:text-gray-800 px-10 py-3 transition-all transform hover:scale-110 duration-300 shadow-xl font-bold justify-end">Kirim</button>
                         </form>
                     </div>
                 </div>

@@ -141,7 +141,7 @@ const Teams = () => {
     return (
         <div id="team" className="dark:bg-gray-800 duration-500 overflow-hidden">
             <div className="mx-auto xl:container lg:px-10">
-                <div align="center" className="mx-auto lg:pt-24 pt-20 dark:text-gray-200 lg:text-5xl text-4xl font-bold items-center justify-between">
+                <div align="center" className="mx-auto lg:pt-24 pt-20 dark:text-gray-300 lg:text-5xl text-4xl font-bold items-center justify-between">
                     <h1>Our Teams</h1>
                 </div>
                 <div className="mx-auto lg:py-20 pt-5 pb-20 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-4">

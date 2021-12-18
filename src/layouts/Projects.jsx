@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import ProjectsButton from "../components/buttons/ProjectsButton";
 import ProjectsCard from "../components/cards/ProjectsCard";
-import smartCard from "../assets/project/smart-card.png"
+
+import SmartCard from "../assets/project/smart-card.png"
+import SmartAngklung from "../assets/project/smart-angklung.png"
+import SpiderBot from "../assets/project/spider-bot.png"
 
 const Projects = () => {
 
@@ -9,23 +12,29 @@ const Projects = () => {
 
     return (
         <div>
-            <div id="project" className="z-30 bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500 overflow-hidden">
+            <div id="project" className="z-30 bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-400  transition-color duration-500 overflow-hidden">
                 <div className="xl:container mx-auto lg:px-10">
-                    <div align="center" className="mx-auto lg:pt-24 pt-20 lg:text-5xl text-3xl font-bold items-center justify-between">
+                    <div align="center" className="mx-auto lg:pt-24 pt-20 lg:text-5xl text-3xl dark:text-gray-800 font-bold items-center justify-between">
                         <h1>Our Project</h1>
                     </div>
                     <div className="lg:mx-auto lg:pt-20 pt-10 flex lg:flex-row flex-col items-center justify-center lg:space-x-10">
                         <div data-aos="zoom-in-right">
                             <ProjectsCard
                                 name="Smart Card"
-                                img={smartCard}
+                                img={SmartCard}
                             />
                         </div>
                         <div data-aos="zoom-in">
-                            <ProjectsCard name="Smart Angklung" />
+                            <ProjectsCard
+                                name="Smart Angklung"
+                                img={SmartAngklung}
+                            />
                         </div>
                         <div data-aos="zoom-in-left">
-                            <ProjectsCard name="Spider Bot" />
+                            <ProjectsCard
+                                name="Spider Bot"
+                                img={SpiderBot}
+                            />
                         </div>
                     </div>
                     <div className={`${showMore ? "lg:mx-auto pb-10 flex lg:flex-row flex-col " : "overflow-hidden  opacity-0 h-0 w-0"} items-center justify-center lg:space-x-10 transition-all ease-in-out duration-500 `}>
@@ -35,7 +44,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div id="project" className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-all transform duration-500" : "hidden"}`}>
+            <div id="project" className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-400  transition-all transform duration-500" : "hidden"}`}>
                 <div className="container mx-auto lg:px-10">
                     <div className="lg:mx-auto pt-20 mt-10 flex lg:flex-row flex-col items-center justify-center lg:space-x-10">
                         <ProjectsCard />
@@ -49,7 +58,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500">
+            <div className="bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-400  transition-color duration-500">
                 <div className="items-center justify-center">
                     <div className="text-center pt-5 pb-10 lg:pb-20">
                         <a onClick={() => setShowMore(!showMore)}>

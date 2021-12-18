@@ -5,7 +5,7 @@ const MembersCard = (props) => {
     return (
         <div>
 
-            <div data-aos="flip-right" className="items-center shadow-xl p-6 my-14 justify-between w-64 mx-auto rounded-xl pb-3 bg-gradient-to-b from-blue-400 to-white dark:from-blue-600 dark:to-blue-400 transition-all transform hover:scale-105 duration-500">
+            <div className="items-center shadow-xl p-6 my-14 justify-between w-64 mx-auto rounded-xl pb-3 bg-gradient-to-b from-blue-400 to-white dark:from-blue-600 dark:to-blue-400 transition-all transform hover:scale-105 duration-500">
                 <div className="w-48 h-48 bg-gradient-to-b from-white dark:from-gray-800 to-gray-300 dark:to-gray-800 transition-all duration-500 rounded-full mx-auto mb-5">
                     <img
                         src={props.img}
@@ -15,15 +15,15 @@ const MembersCard = (props) => {
                 </div>
 
                 <div className="text-center">
-                    <h5 className="text-xl font-semibold mb-3">{props.name}</h5>
+                    <h5 className="text-xl dark:text-gray-800 font-semibold mb-3">{props.name}</h5>
 
-                    <p className="mx-3 text text-gray-900">
+                    <p className="mx-3 text text-gray-900 dark:text-gray-700">
                         {props.divisi}
                     </p>
-                    <p className="mx-3 text-sm text-gray-700">
+                    <p className="mx-3 text-sm text-gray-700 dark:text-gray-600">
                         {props.status}
                     </p>
-                    <p className="mx-3 text-sm text-gray-700">
+                    <p className="mx-3 text-sm text-gray-700 dark:text-gray-600">
                         {props.jurusan}
                     </p>
                     <div className="flex flex-row my-3 mx-6 justify-between">

@@ -11,6 +11,7 @@ import Rizky from "../assets/structure/rizky.png";
 import Rini from "../assets/structure/rini.png";
 import Guntur from "../assets/structure/guntur.png";
 import Husni from "../assets/structure/husni.png";
+import Evy from "../assets/structure/evi.png";
 import Iis from "../assets/structure/iis.png";
 import Risma from "../assets/structure/risma.png";
 import Imam from "../assets/structure/imam.png";
@@ -26,9 +27,9 @@ const Structures = () => {
 
     return (
         <div>
-            <div id="structure" className="bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500">
+            <div id="structure" className="bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-400  transition-color duration-500">
                 <div className="container mx-auto lg:px-10">
-                    <div align="center" className="mx-auto lg:pt-24 pt-20 lg:text-5xl text-3xl font-bold items-center justify-between">
+                    <div align="center" className="mx-auto lg:pt-24 pt-20 lg:text-5xl text-3xl dark:text-gray-800 font-bold items-center justify-between">
                         <h1>Our Structure</h1>
                     </div>
                     <div className="lg:mx-auto lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
@@ -52,8 +53,8 @@ const Structures = () => {
                 </div>
 
             </div>
-            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
-                <div align="center" className="mx-auto mt-10 lg:pt-24 pt-20 lg:text-5xl text-3xl font-bold items-center justify-between">
+            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-400  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
+                <div align="center" className="mx-auto mt-10 lg:pt-24 pt-20 lg:text-5xl text-3xl dark:text-gray-800 font-bold items-center justify-between">
                     <h1>Kesekjenan</h1>
                 </div>
                 <div className="lg:mx-auto lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
@@ -84,8 +85,8 @@ const Structures = () => {
                     </div>
                 </div>
             </div>
-            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
-                <div align="center" className="mx-auto mt-10 pt-24 lg:text-5xl text-3xl font-bold items-center justify-between">
+            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-400  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
+                <div align="center" className="mx-auto mt-10 pt-24 lg:text-5xl text-3xl dark:text-gray-800 font-bold items-center justify-between">
                     <h1>Divisi</h1>
                 </div>
                 <div className="lg:mx-auto lg:pt-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
@@ -135,7 +136,7 @@ const Structures = () => {
                     </div>
                 </div>
             </div>
-            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
+            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-400  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div className="lg:mx-auto mt-10 lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
                     <div>
                         <StructuresCard
@@ -156,7 +157,7 @@ const Structures = () => {
                     </div>
                 </div>
             </div>
-            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
+            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-400  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div className="g:mx-auto mt-10 lg:pt-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
                     <div>
                         <StructuresCard
@@ -195,7 +196,7 @@ const Structures = () => {
                     </div>
                 </div>
             </div>
-            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
+            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-400  transition-color duration-500" : "overflow-hidden h-0 opacity-0 transition-all ease-in-out duration-500"}`}>
                 <div className="lg:mx-auto mt-10 lg:pt-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
                     <div>
                         <StructuresCard
@@ -220,8 +221,7 @@ const Structures = () => {
                             jabatan="Divisi Humas"
                             nama="Eviyanti"
                             jurusan="Teknik Informatika 2020"
-                            hidden="hidden"
-                            svg={Default}
+                            src={Evy}
                         />
                     </div>
                     <div>
@@ -234,7 +234,7 @@ const Structures = () => {
                     </div>
                 </div>
             </div>
-            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500" : "hidden"}`}>
+            <div className={`${showMore ? "bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-400  transition-color duration-500" : "hidden"}`}>
                 <div id="showlessStructure" className="lg:mx-auto mt-10 lg:py-20 pt-10 flex lg:flex-row flex-col justify-center items-center">
                     <div>
                         <StructuresCard
@@ -254,7 +254,7 @@ const Structures = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-300  transition-color duration-500">
+            <div className="bg-gradient-to-l from-blue-400 lg:to-blue-200 to-blue-300 dark:bg-gradient-to-r dark:from-blue-500 dark:to-blue-400  transition-color duration-500">
                 <div className="items-center justify-center">
                     <div onClick={() => setShowMore(!showMore)} className="text-center pt-5 pb-10 lg:pb-20">
                         <ProjectsButton name={`${!showMore ? "Show More" : "Show Less"}`} />
