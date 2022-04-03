@@ -11,3 +11,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@layer components {
+  .transition-500 {
+    @apply transition-all duration-500 ease-in-out;
+  }
+  .transition-300 {
+    @apply transition-all duration-500 ease-in-out;
+  }
+}
