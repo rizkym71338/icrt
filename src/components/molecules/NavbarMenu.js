@@ -9,21 +9,21 @@ const NavbarMenu = ({ isOpen, setIsOpen }) => {
       } flex flex-col lg:flex-row lg:mr-5 pt-5 pb-2 lg:py-0 `}
     >
       <NavbarItem title="Home" href="/" />
-      <NavbarItem
+      {/* <NavbarItem
         title="Team"
         href="#team"
         onClick={() => setIsOpen(!isOpen)}
-      />
-      <NavbarItem
+      /> */}
+      {/* <NavbarItem
         title="Structure"
         href="#structure"
         onClick={() => setIsOpen(!isOpen)}
-      />
-      <NavbarItem
+      /> */}
+      {/* <NavbarItem
         title="Member"
         href="#member"
         onClick={() => setIsOpen(!isOpen)}
-      />
+      /> */}
       <NavbarItem
         title="Project"
         href="#project"

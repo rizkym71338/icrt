@@ -4,7 +4,7 @@ const IconSun = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-6 w-6 dark:hover:text-primary-500 cursor-pointer dark:text-gray-200 transition-300"
+      className="h-6 w-6 hover:text-primary-500 cursor-pointer text-gray-700 transition-300"
       viewBox="0 0 20 20"
       fill="currentColor"
     >

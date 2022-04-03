@@ -6,9 +6,7 @@ const Main = () => {
   return (
     <>
       <Navbar />
-      <div className="py-20">
-        <Outlet />
-      </div>
+      <Outlet />
       <Footer />
     </>
   );
