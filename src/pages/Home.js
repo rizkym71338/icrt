@@ -1,11 +1,13 @@
 import React from "react";
-import { Hero, Teams } from "../components";
+import { Hero, Members, Structures, Teams } from "../components";
 
 const Home = () => {
   return (
     <>
       <Hero />
       <Teams />
+      <Structures />
+      <Members />
     </>
   );
 };

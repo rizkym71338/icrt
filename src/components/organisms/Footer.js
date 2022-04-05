@@ -12,7 +12,7 @@ const Footer = () => {
               href="https://github.com/ICRT-dev"
               className="hover:scale-105 transform transition-all duration-300"
             >
-              <img src={IconGithub} />
+              <IconGithub />
             </a>
           </div>
           <div className="w-10 flex justify-center items-center">
@@ -21,7 +21,7 @@ const Footer = () => {
               href="https://www.instagram.com/icrtikmi/"
               className="hover:scale-105 transform transition-all duration-300"
             >
-              <img src={IconInstagram} />
+              <IconInstagram />
             </a>
           </div>
           <div className="w-10 flex justify-center items-center">
@@ -30,7 +30,7 @@ const Footer = () => {
               href="mailto:robotikaikmi90@gmail.com"
               className="hover:scale-105 transform transition-all duration-300"
             >
-              <img src={IconMail} />
+              <IconMail />
             </a>
           </div>
           <div className="w-10 flex justify-center items-center">
@@ -39,7 +39,7 @@ const Footer = () => {
               href="https://www.youtube.com/channel/UCAAVVbKYuAPeqA-J84J6nnA"
               className="hover:scale-105 transform transition-all duration-300"
             >
-              <img src={IconYoutube} />
+              <IconYoutube />
             </a>
           </div>
         </div>
