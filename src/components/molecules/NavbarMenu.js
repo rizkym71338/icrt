@@ -8,22 +8,11 @@ const NavbarMenu = ({ isOpen, setIsOpen }) => {
         !isOpen ? "opacity-0 lg:opacity-100" : ""
       } flex flex-col lg:flex-row lg:mr-5 pt-5 pb-2 lg:py-0 `}
     >
-      <NavbarItem title="Home" href="/" />
-      {/* <NavbarItem
-        title="Team"
-        href="#team"
+      <NavbarItem
+        title="Home"
+        href="#home"
         onClick={() => setIsOpen(!isOpen)}
-      /> */}
-      {/* <NavbarItem
-        title="Structure"
-        href="#structure"
-        onClick={() => setIsOpen(!isOpen)}
-      /> */}
-      {/* <NavbarItem
-        title="Member"
-        href="#member"
-        onClick={() => setIsOpen(!isOpen)}
-      /> */}
+      />
       <NavbarItem
         title="Project"
         href="#project"

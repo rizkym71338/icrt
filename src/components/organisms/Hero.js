@@ -4,8 +4,11 @@ import { ButtonHero } from "../atoms";
 
 const Hero = () => {
   return (
-    <div className="xl:h-screen 2xl:h-full box-border pt-20 pb-5 bg-white dark:bg-slate-900 transition-500">
-      <div className="container lg:flex flex-col justify-center h-full px-6 transition-500 space-y-5">
+    <div
+      id="home"
+      className="xl:h-screen 2xl:h-full overflow-hidden pt-20 pb-5 bg-white dark:bg-slate-900 transition-500"
+    >
+      <div className="container lg:flex flex-col justify-center h-full md:px-6 transition-500 space-y-5">
         <h1 className="lg:text-5xl text-center md:text-left md:text-4xl text-2xl font-semibold text-slate-900 dark:text-slate-100 transition-500">
           Ikmi Cirebon <span className="text-primary-500">Robotik Team</span>
         </h1>
@@ -51,10 +54,13 @@ const Hero = () => {
           </div>
           {/* RIGHT */}
           <div className="w-full flex justify-center transition-500 items-center lg:w-1/2">
-            <div className="relative flex h-[360px]">
-              <img src={LogoIcon} className="h-full z-10" />
-              <Blob className="absolute bottom-0 left-0 scale-75 text-primary-100 dark:text-primary-300 transition-500" />
-              <Blob className="absolute top-10 -right-12 rotate-180 scale-50 text-slate-100 dark:text-slate-300 transition-500" />
+            <div className="relative flex items-center justify-center h-[360px]">
+              <img
+                src={LogoIcon}
+                className="md:h-full h-4/5 z-10 transition-500"
+              />
+              <Blob className="absolute bottom-0 left-0 md:scale-75 scale-[45%] text-primary-100 dark:text-primary-300 transition-500" />
+              <Blob className="absolute top-10 -right-12 rotate-180 md:scale-50 scale-[35%] text-slate-100 dark:text-slate-300 transition-500" />
             </div>
           </div>
         </div>
