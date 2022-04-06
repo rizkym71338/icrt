@@ -5,7 +5,7 @@ const NavbarMenu = ({ isOpen, setIsOpen }) => {
   return (
     <div
       className={`${
-        !isOpen ? "opacity-0 lg:opacity-100" : ""
+        !isOpen && "opacity-0 lg:opacity-100"
       } flex flex-col lg:flex-row lg:mr-5 pt-5 pb-2 lg:py-0 `}
     >
       <NavbarItem
