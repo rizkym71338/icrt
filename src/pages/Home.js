@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Achievements,
+  Contact,
   Hero,
   Members,
   Projects,
@@ -17,6 +18,7 @@ const Home = () => {
       <Members />
       <Projects />
       <Achievements />
+      <Contact />
     </>
   );
 };

@@ -6,3 +6,4 @@ export { default as Structures } from "./Structures";
 export { default as Members } from "./Members";
 export { default as Projects } from "./Projects";
 export { default as Achievements } from "./Achievements";
+export { default as Contact } from "./Contact";
