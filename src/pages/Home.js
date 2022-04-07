@@ -1,5 +1,12 @@
 import React from "react";
-import { Hero, Members, Projects, Structures, Teams } from "../components";
+import {
+  Achievements,
+  Hero,
+  Members,
+  Projects,
+  Structures,
+  Teams,
+} from "../components";
 
 const Home = () => {
   return (
@@ -9,6 +16,7 @@ const Home = () => {
       <Structures />
       <Members />
       <Projects />
+      <Achievements />
     </>
   );
 };

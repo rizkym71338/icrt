@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import {
   MemberEvi,
   MemberFahmi,
@@ -15,11 +17,77 @@ import {
   MemberRizky,
   MemberWisnu,
 } from "../../assets";
-import { ButtonStructure } from "../atoms";
 import { CardMember, SectionTitle } from "../molecules";
 
 const Members = () => {
-  const [showMore, setShowMore] = useState(false);
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1200 },
+      items: 3,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1200, min: 720 },
+      items: 2,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 720, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+  };
+
+  const CustomRightArrow = ({ onClick, ...rest }) => {
+    const {
+      onMove,
+      carouselState: { currentSlide, deviceType },
+    } = rest;
+    // onMove means if dragging or swiping in progress.
+    return (
+      <button
+        className="absolute right-0 mr-3 top-50"
+        onClick={() => onClick()}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-10 h-10 text-blue-500 transition-all duration-300 ease-out transform bg-white rounded-full hover:bg-blue-500 hover:text-white dark:hover:text-gray-800 dark:bg-gray-800 dark:hover:bg-blue-500"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fillRule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+            clipRule="evenodd"
+          />
+        </svg>
+      </button>
+    );
+  };
+
+  const CustomLeftArrow = ({ onClick, ...rest }) => {
+    const {
+      onMove,
+      carouselState: { currentSlide, deviceType },
+    } = rest;
+    // onMove means if dragging or swiping in progress.
+    return (
+      <button className="absolute left-0 ml-3 top-50" onClick={() => onClick()}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-10 h-10 text-blue-500 transition-all duration-300 ease-out transform bg-white rounded-full hover:bg-blue-500 hover:text-white dark:hover:text-gray-800 dark:bg-gray-800 dark:hover:bg-blue-500"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fillRule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L9.414 11H13a1 1 0 100-2H9.414l1.293-1.293z"
+            clipRule="evenodd"
+          />
+        </svg>
+      </button>
+    );
+  };
 
   const data = [
     {
@@ -171,31 +239,15 @@ const Members = () => {
     >
       <div className="container transition-500">
         <SectionTitle titleLeft="Our" titleRight="Members" />
-        <div className="flex flex-wrap justify-center px-5 pt-5 md:gap-12 transition-500">
-          {data.slice(0, 3).map((item, index) => {
-            return (
-              <CardMember
-                key={index}
-                src={item.src}
-                divisi={item.divisi}
-                nama={item.nama}
-                status={item.status}
-                urlGit={item.urlGit}
-                urlIG={item.urlIG}
-                urlMail={item.urlMail}
-                urlYT={item.urlYT}
-              />
-            );
-          })}
-        </div>
-        <div
-          className={`${
-            !showMore
-              ? "absolute scale-0 -z-50"
-              : "flex flex-wrap justify-center px-5 pt-12 pb-5 md:gap-12"
-          } transition-500`}
+        <Carousel
+          className="py-5"
+          containerClass="carousel-container"
+          responsive={responsive}
+          customLeftArrow={<CustomLeftArrow />}
+          customRightArrow={<CustomRightArrow />}
+          infinite
         >
-          {data.slice(3).map((item, index) => {
+          {data.map((item, index) => {
             return (
               <CardMember
                 key={index}
@@ -210,13 +262,7 @@ const Members = () => {
               />
             );
           })}
-        </div>
-        <div className="flex justify-center pt-10 lg:pt-20">
-          <ButtonStructure
-            title={showMore ? "Show Less" : "Show More"}
-            onClick={() => setShowMore(!showMore)}
-          />
-        </div>
+        </Carousel>
       </div>
     </section>
   );

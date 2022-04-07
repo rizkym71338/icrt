@@ -5,7 +5,7 @@ const Mail = () => {
     <svg
       width="40"
       height="40"
-      className="cursor-pointer text-slate-700 dark:text-slate-400 hover:text-primary-500 dark:hover:text-primary-500 transition-300"
+      className="cursor-pointer text-slate-700 dark:text-slate-400 group-hover:text-primary-500 transition-300"
       viewBox="0 0 40 40"
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
