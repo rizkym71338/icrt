@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { SmartAngklung, SmartCard, SpiderBot } from "../../assets";
-import { SectionTitle } from "../molecules";
-import CardProject from "../molecules/CardProject";
+import { ButtonStructure } from "../atoms";
+import { SectionTitle, CardProject } from "../molecules";
 
 const Projects = () => {
+  const [showMore, setShowMore] = useState(false);
+
   return (
     <section
       id="project"
@@ -16,6 +18,12 @@ const Projects = () => {
         <CardProject title="Smart Card" src={SmartCard} />
         <CardProject title="Smart Angklung" src={SmartAngklung} />
         <CardProject title="Smart Card" src={SpiderBot} />
+      </div>
+      <div className="flex justify-center pt-10 lg:pt-20">
+        <ButtonStructure
+          title={showMore ? "Show Less" : "Show More"}
+          onClick={() => setShowMore(!showMore)}
+        />
       </div>
     </section>
   );
