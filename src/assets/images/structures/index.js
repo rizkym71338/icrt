@@ -1,0 +1,15 @@
+export { default as StructureDefault } from "./default.svg";
+export { default as StructureEvi } from "./evi.png";
+export { default as StructureFahmi } from "./fahmi.png";
+export { default as StructureFauzan } from "./fauzan.png";
+export { default as StructureGuntur } from "./guntur.png";
+export { default as StructureHusni } from "./husni.png";
+export { default as StructureIis } from "./iis.png";
+export { default as StructureImam } from "./imam.png";
+export { default as StructureMarwah } from "./marwah.png";
+export { default as StructureMeita } from "./meita.png";
+// export { default as StructureRaka } from "./raka.png";
+export { default as StructureRini } from "./rini.png";
+export { default as StructureRisma } from "./risma.png";
+export { default as StructureRizky } from "./rizky.png";
+export { default as StructureWisnu } from "./wisnu.png";
