@@ -35,7 +35,7 @@ const Contact = () => {
     >
       <div className="container transition-500">
         <SectionTitle titleLeft="Contact" titleRight="Us" />
-        <div className="flex flex-col space-y-6 lg:flex-row md:p-5 lg:space-y-0 transition-500">
+        <div className="flex flex-col space-y-6 lg:flex-row md:px-5 lg:space-y-0 transition-500">
           {/* LEFT */}
           <div className="flex items-center justify-center w-full transition-500 lg:w-1/2">
             <div className="relative flex items-center justify-center h-[360px]">
@@ -76,29 +76,29 @@ const Contact = () => {
               <input
                 type="text"
                 name="nama"
-                className="block w-full p-6 text-sm bg-white border drop-shadow-lg border-slate-300 text-slate-900 rounded-3xl focus:ring-primary-500 focus:border-primary-500 dark:bg-slate-900 dark:border-slate-700 dark:placeholder-slate-100 dark:text-slate-100 dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                className="block w-full p-6 text-sm bg-white border-2 drop-shadow-lg text-slate-900 rounded-3xl ring-primary-500 border-primary-500 dark:bg-slate-900 dark:placeholder-slate-100 dark:text-slate-100 dark:ring-primary-500 dark:border-primary-500"
                 placeholder="Nama Anda"
                 required
               />
               <input
                 type="email"
                 name="email"
-                className="block w-full p-6 text-sm bg-white border drop-shadow-lg border-slate-300 text-slate-900 rounded-3xl focus:ring-primary-500 focus:border-primary-500 dark:bg-slate-900 dark:border-slate-700 dark:placeholder-slate-100 dark:text-slate-100 dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                className="block w-full p-6 text-sm bg-white border-2 drop-shadow-lg text-slate-900 rounded-3xl ring-primary-500 border-primary-500 dark:bg-slate-900 dark:placeholder-slate-100 dark:text-slate-100 dark:ring-primary-500 dark:border-primary-500"
                 placeholder="Email Anda"
                 required
               />
               <textarea
                 type="text"
                 rows="5"
-                className="block w-full p-6 text-sm bg-white border drop-shadow-lg border-slate-300 text-slate-900 rounded-3xl focus:ring-primary-500 focus:border-primary-500 dark:bg-slate-900 dark:border-slate-700 dark:placeholder-slate-100 dark:text-slate-100 dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                className="block w-full p-6 text-sm bg-white border-2 drop-shadow-lg text-slate-900 rounded-3xl ring-primary-500 border-primary-500 dark:bg-slate-900 dark:placeholder-slate-100 dark:text-slate-100 dark:ring-primary-500 dark:border-primary-500"
                 placeholder="Pesan"
                 name="pesan"
                 required
               />
-              <div className="flex justify-center">
+              <div className="flex justify-start">
                 <button
                   type="submit"
-                  className="justify-end px-10 py-3 my-5 font-bold text-white shadow-xl transition-300 bg-primary-500 dark:bg-primary-600 rounded-3xl dark:text-slate-100 hover:bg-primary-700"
+                  className="justify-end px-10 py-3 font-bold text-white shadow-xl transition-300 bg-primary-500 dark:bg-primary-600 rounded-3xl dark:text-slate-100 hover:bg-primary-700"
                 >
                   Kirim
                 </button>

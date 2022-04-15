@@ -1,10 +1,14 @@
 import React from "react";
+import { BgCardStructure } from "../../assets/svg";
 
 const CardStructure = ({ src, jabatan, nama, jurusan }) => {
   return (
     <div className="flex flex-col justify-center p-5 space-y-5 text-center transition-500 text-slate-900 dark:text-slate-100">
-      <div className="overflow-hidden rounded-full bg-primary-100 dark:bg-primary-300 transition-500 md:w-72 md:h-72 w-52 h-52">
-        <img src={src} className="w-full h-full" />
+      <div
+        className={`overflow-hidden relative rounded-full transition-500 md:w-72 md:h-72 w-52 h-52`}
+      >
+        <img src={src} className="absolute w-full h-full" alt="test" />
+        <BgCardStructure />
       </div>
       <h1 className="text-lg font-semibold lg:text-3xl md:text-xl">
         {jabatan}

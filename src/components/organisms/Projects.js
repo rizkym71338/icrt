@@ -19,12 +19,12 @@ const Projects = () => {
         <CardProject title="Smart Angklung" src={SmartAngklung} />
         <CardProject title="Smart Card" src={SpiderBot} />
       </div>
-      <div className="flex justify-center pt-10 lg:pt-20">
+      {/* <div className="flex justify-center pt-10 lg:pt-20">
         <ButtonStructure
           title={showMore ? "Show Less" : "Show More"}
           onClick={() => setShowMore(!showMore)}
         />
-      </div>
+      </div> */}
     </section>
   );
 };

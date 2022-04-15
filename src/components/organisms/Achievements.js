@@ -44,12 +44,12 @@ const Achievements = () => {
             return (
               <div
                 key={index}
-                className="flex flex-col items-center gap-5 md:justify-center md:items-start md:flex-row md:gap-0 transition-500"
+                className="flex flex-col items-center gap-5 md:justify-center md:px-40 md:items-start md:flex-row md:gap-0 transition-500"
               >
                 <div className="flex justify-center w-full md:w-1/2">
                   <CardAchievement src={item.src} title={item.dateTime} />
                 </div>
-                <div className="flex flex-col w-full px-10 py-5 space-y-6 md:w-1/2 transition-500">
+                <div className="flex flex-col w-full px-10 pb-5 space-y-6 md:w-1/2 transition-500">
                   <h1 className="w-full text-base font-semibold text-center md:text-left lg:text-2xl md:text-lg text-slate-900 dark:text-slate-100 transition-500">
                     {item.title}
                   </h1>

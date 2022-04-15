@@ -96,7 +96,7 @@ const Structures = () => {
     >
       <div className="container transition-500">
         <SectionTitle titleLeft="Our" titleRight="Structures" />
-        <div className="flex flex-col md:gap-12 items-center justify-center p-5 space-y-12 md:space-y-0 transition-500 md:flex-row">
+        <div className="flex flex-col items-center justify-center p-5 space-y-12 md:gap-12 md:space-y-0 transition-500 md:flex-row">
           <CardStructure
             src={StructureFauzan}
             jabatan="Ketua"
@@ -131,7 +131,7 @@ const Structures = () => {
         </div>
         <div className="flex justify-center pt-10 lg:pt-20">
           <ButtonStructure
-            title={showMore ? "Show Less" : "Show More"}
+            title={showMore ? "Lebih Sedikit" : "Lebih Banyak"}
             onClick={() => setShowMore(!showMore)}
           />
         </div>

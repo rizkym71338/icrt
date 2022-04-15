@@ -6,7 +6,7 @@ const ButtonAchievement = ({ onClick }) => {
       onClick={onClick}
       className="text-sm font-semibold text-primary-500 lg:text-lg md:text-base"
     >
-      Read More
+      Baca Selengkapnya
     </button>
   );
 };
