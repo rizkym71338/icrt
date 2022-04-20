@@ -5,7 +5,7 @@ const Github = ({ width, height }) => {
     <svg
       width={width}
       height={height}
-      className="cursor-pointer text-slate-700 dark:text-slate-100 hover:text-primary-500 group-hover:text-primary-500 transition-300"
+      className="cursor-pointer text-slate-700 dark:text-slate-100 hover:text-primary-500 group-hover:text-primary-500 dark:hover:text-primary-500 transition-300"
       viewBox="0 0 24 25"
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
