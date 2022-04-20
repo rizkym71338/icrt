@@ -4,7 +4,7 @@ import { IconGithub, IconInstagram, IconMail, IconYoutube } from "../../assets";
 const Footer = () => {
   return (
     <div>
-      <div className="items-center justify-center py-20 bg-white dark:bg-black transition-500">
+      <div className="items-center justify-center py-20 bg-white dark:bg-slate-900 transition-500">
         <div className="flex flex-row items-center justify-between mx-auto w-60">
           <div className="flex items-center justify-center w-10">
             <a

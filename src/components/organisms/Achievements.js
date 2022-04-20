@@ -4,6 +4,7 @@ import {
   InternetOfThings,
   MuslimHackfest,
 } from "../../assets";
+import Swal from "sweetalert2";
 import ButtonAchievement from "../atoms/ButtonAchievement";
 import { CardAchievement, SectionTitle } from "../molecules";
 
@@ -32,6 +33,16 @@ const Achievements = () => {
     },
   ];
 
+  const HandlerButtonClicked = () => {
+    Swal.fire({
+      icon: "info",
+      title: "Fitur Sedang Proses Develop !",
+      showConfirmButton: false,
+      footer: " ",
+      timer: 1500,
+    });
+  };
+
   return (
     <section
       id="achievement"
@@ -57,7 +68,7 @@ const Achievements = () => {
                     {item.content}
                   </p>
                   <div>
-                    <ButtonAchievement />
+                    <ButtonAchievement onClick={HandlerButtonClicked} />
                   </div>
                 </div>
               </div>

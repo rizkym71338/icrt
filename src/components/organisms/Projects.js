@@ -17,7 +17,7 @@ const Projects = () => {
       <div className="flex flex-wrap justify-center px-5 pt-5 md:gap-12 transition-500">
         <CardProject title="Smart Card" src={SmartCard} />
         <CardProject title="Smart Angklung" src={SmartAngklung} />
-        <CardProject title="Smart Card" src={SpiderBot} />
+        <CardProject title="Spider Bot" src={SpiderBot} />
       </div>
       {/* <div className="flex justify-center pt-10 lg:pt-20">
         <ButtonStructure
